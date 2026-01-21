@@ -526,7 +526,7 @@
   },
   {
     "name": "Bain",
-    "title": "Bain the Bounty Hunter",
+    "title": "the Bounty Hunter",
     "difficulty": 2,
     "lore": "I wouldn't go around asking questions about Bain. Shady character that one. Some say he is a nobleman, looking for his lost sister, some say he is ut and ordinary drunk. Drunk or not, he is the best shot this side of the desert. Unless you want him for a job, stay clear of him, partner!",
     "gameplay": [
@@ -1030,7 +1030,7 @@
   },
   {
     "name": "Brogan",
-    "title": "Brogan the Destroyer",
+    "title": "the Destroyer",
     "difficulty": 1,
     "lore": "Brogan regained his senses in the midst of battle. War drums resonated with the pounding of his ears, and the elf made a note to quit Drakenhuff Grog. As the enemy mounted their charge, he reached behind him: first feeling the strings of the lute, then the handle of his axe.",
     "gameplay": [
@@ -1554,7 +1554,7 @@
   },
   {
     "name": "Brynn",
-    "title": "Brynn the Seeker",
+    "title": "the Seeker",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -2079,7 +2079,7 @@
   },
   {
     "name": "Cutter",
-    "title": "Cutter the Sky Pirate",
+    "title": "the Sky Pirate",
     "difficulty": 3,
     "lore": "The daring exploits of Cutter, the captain of the skyship \"Black Sparrow\" are the crowd-favorite in every tavern across the continent! She traded her life of a noble-born debutante for that of a swashbuckler and a scoundrel.",
     "gameplay": [
@@ -2569,7 +2569,7 @@
   },
   {
     "name": "Dodger",
-    "title": "Dodger the Warlock",
+    "title": "the Warlock",
     "difficulty": 1,
     "lore": "Dodger hated delving through the dusty tomes. It was always the more practical aspects of dark magic that fascinated her, so when a daemon offered to complete her training by bypassing the boring formalities, it took a mirror for her to realize that there was fine print in that contract.",
     "gameplay": [
@@ -3093,7 +3093,7 @@
   },
   {
     "name": "Emmitt",
-    "title": "Emmitt the Traveler",
+    "title": "the Traveler",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -3618,7 +3618,7 @@
   },
   {
     "name": "Garrus",
-    "title": "Garrus the Gladiator",
+    "title": "the Gladiator",
     "difficulty": 2,
     "lore": "Garrus was the reigning champion of the Arena until his defeat at the hand of a stranger, who tricked him into losing his temper. He roams the land, seeking to regain his title and his honor. They say that his shield can deflect a point-blank ballista shot. No one has ever dared to check if it's true.",
     "gameplay": [
@@ -4130,7 +4130,7 @@
   },
   {
     "name": "Gydion",
-    "title": "Gydion the Archwizard",
+    "title": "the Archwizard",
     "difficulty": 5,
     "lore": "",
     "gameplay": [
@@ -4655,7 +4655,7 @@
   },
   {
     "name": "Hanu",
-    "title": "Hanu the Trickster",
+    "title": "the Trickster",
     "difficulty": 3,
     "lore": "A day without mischief is a day wasted. Free from his brother's wise guidance, Hanu roams the ruins of old Atlantean capital, playing tricks on any would-be explorer who is reckless enough to enter the domain of the Great Trickster.",
     "gameplay": [
@@ -5181,7 +5181,7 @@
   },
   {
     "name": "Ignitia",
-    "title": "Ignitia the Mad",
+    "title": "the Mad",
     "difficulty": 4,
     "lore": "There is a fine line between genius and madness and Ignitia is the living proof of this. The dwarven fire-mage is as powerful as she is unpredictable, just like the forces she commands.",
     "gameplay": [
@@ -5707,7 +5707,7 @@
   },
   {
     "name": "Min",
-    "title": "Min the Dragonmonk",
+    "title": "the Dragonmonk",
     "difficulty": 2,
     "lore": "The monks of the Order of the Dragon once worshiped the ancient beasts. But with their patrons gone, Min and his brothers had to adopt more practical applications of their believes.",
     "gameplay": [
@@ -6235,7 +6235,7 @@
   },
   {
     "name": "Misa",
-    "title": "Misa the Samurai",
+    "title": "the Samurai",
     "difficulty": 2,
     "lore": "Misa will fight against overwhelming odds to protect her master. Unfortunately, she has yet to find anyone worthy of her blade and loyalty.",
     "gameplay": [
@@ -6699,7 +6699,7 @@
   },
   {
     "name": "Mortimer",
-    "title": "Mortimer the Awakener",
+    "title": "the Awakener",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -7224,7 +7224,7 @@
   },
   {
     "name": "Mrak",
-    "title": "Mrak the Rockshaper",
+    "title": "the Rockshaper",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -7749,7 +7749,7 @@
   },
   {
     "name": "Nebkher",
-    "title": "Nebkher the Harbinger",
+    "title": "the Harbinger",
     "difficulty": 4,
     "lore": "NebKher is an enigmatic traveler, draped in exotic garb, his face concealed behind a terrifying mask. Those who have encountered him speak of his unnatural powers over the minds of living beings.",
     "gameplay": [
@@ -8273,7 +8273,7 @@
   },
   {
     "name": "Razzle",
-    "title": "Razzle the Fay",
+    "title": "the Fay",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -8798,7 +8798,7 @@
   },
   {
     "name": "Rowenna",
-    "title": "Rowenna the Vanguard",
+    "title": "the Vanguard",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -9323,7 +9323,7 @@
   },
   {
     "name": "Sabina",
-    "title": "Sabina the Gunslinger",
+    "title": "the Gunslinger",
     "difficulty": 1,
     "lore": "Sabina was unfairly accused of atrocities after a rogue faction of soldiers in similar uniforms commited horrific acts in a neighboring city. Despite her protests of innocence, suspicion weighted heavily upon her. Feeling betrayed by those she once considered, she now leads a band of minions into battle.",
     "gameplay": [
@@ -9846,7 +9846,7 @@
   },
   {
     "name": "Snorri",
-    "title": "Snorri the Runescribe",
+    "title": "the Runescribe",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -10371,7 +10371,7 @@
   },
   {
     "name": "Silverarrow",
-    "title": "Silverarrow the Patfinder",
+    "title": "the Patfinder",
     "difficulty": 2,
     "lore": "Silverarrow never imagined she would leave the Forest until the Oracle uttered the prophecy. the hardest step of any path is the very first one; after that, you just keep moving.",
     "gameplay": [
@@ -10882,7 +10882,7 @@
   },
   {
     "name": "Swift",
-    "title": "Swift the Sharpshooter",
+    "title": "the Sharpshooter",
     "difficulty": 3,
     "lore": "When Swift's application to the Royal Fleet Academy was declined, she didn't give up on her dreams of roaming the skies. She joined the mobile scouts, just before the Last War, and earned her place as the best shot of her regiment.",
     "gameplay": [
@@ -11398,7 +11398,7 @@
   },
   {
     "name": "Takahide",
-    "title": "Takahide the Warlord",
+    "title": "the Warlord",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -11923,7 +11923,7 @@
   },
   {
     "name": "Tali",
-    "title": "Tali the Spirit Caller",
+    "title": "the Spirit Caller",
     "difficulty": 3,
     "lore": "When she heared their voices for the first time, no one believed her. Tali held no grudges. When the frost beasts threatened her tribe, she did what she had to do. And when the village was saved, she left - the spirits were calling her.",
     "gameplay": [
@@ -12448,7 +12448,7 @@
   },
   {
     "name": "Tigerclaw",
-    "title": "Tigerclaw the cutpurse",
+    "title": "the cutpurse",
     "difficulty": 1,
     "lore": "Tigerclaw is as elusive as a shadow in the desert. A useful quality to have, when half of the continent wants you dead and the other half wants you quartered first and then dead.",
     "gameplay": [
@@ -12973,7 +12973,7 @@
   },
   {
     "name": "Trinkets",
-    "title": "Trinkets the Scavenger",
+    "title": "the Scavenger",
     "difficulty": 3,
     "lore": "Trinkets is really smart. Well, by kobold standards, that is. He was expelled from the Drakenhuff after almost destroying the entire city. When he is not busy constructing devices, or unearthing spare parts, he is tinkering with his automated turret.",
     "gameplay": [
@@ -13503,7 +13503,7 @@
   },
   {
     "name": "Ursafar",
-    "title": "Ursafar the Savage",
+    "title": "the Savage",
     "difficulty": 2,
     "lore": "When Ursafar roars, the forest beasts cower in their icy caves, and the tribesmen place fresh fish outside their igloos to appease the great bear",
     "gameplay": [
@@ -13989,7 +13989,7 @@
   },
   {
     "name": "Wasp",
-    "title": "Wasp the Warmaiden",
+    "title": "the Warmaiden",
     "difficulty": 1,
     "lore": "As all heiresses to the throne of the Gilded Empire, Wasp was exiled from the palace as soon as she could hold a dagger. She needs to learn how to control her powers before she can face the ultimate challenge and claim her birthright.",
     "gameplay": [
@@ -14511,7 +14511,7 @@
   },
   {
     "name": "Whisper",
-    "title": "Whisper the Outcast",
+    "title": "the Outcast",
     "difficulty": 2,
     "lore": "Whisper was the Grand Judicator of the Underkingdom when he condemned a powerful noble attempting to escape punishment. Refusing to look the other way, he was blinded and left to die. As if he wasn't dead in the first place! The fools!",
     "gameplay": [
@@ -15047,7 +15047,7 @@
   },
   {
     "name": "Widget",
-    "title": "Widget the Dragonbonded",
+    "title": "the Dragonbonded",
     "difficulty": 2,
     "lore": "",
     "gameplay": [
@@ -15572,7 +15572,7 @@
   },
   {
     "name": "Wuk",
-    "title": "Wuk the Grovekeeper",
+    "title": "the Grovekeeper",
     "difficulty": 3,
     "lore": "The Grove doesn't need protection; Wuk simply chooses to stay here. Trees make the best company when you prefer not to be disturbed. If you're daring enough to enter his domain, whatever you do, don't touch the trees.",
     "gameplay": [
@@ -16086,7 +16086,7 @@
   },
   {
     "name": "Xargatha",
-    "title": "Xargatha the Changed",
+    "title": "the Changed",
     "difficulty": 1,
     "lore": "Xargatha was the high priestess of the sacred shrine when it was descerated and the holy relic was stolen. Her anger and grief were so powerful, that they've changed her into a monster. She abandoned the temple to find the thieves and return the relic",
     "gameplay": [

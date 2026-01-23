@@ -1,0 +1,1191 @@
+[
+  {
+    "name": "Arien",
+    "title": "the Tidemaster",
+    "difficulty": 1,
+    "lore": "Start mocking his name, and you'll quickly discover the difference between a mermaid princess and a high elf seafarer.",
+    "gameplay": [
+      "Use your gold card to move allies out of of harm's way, or to set up future attacks.",
+      "Your silver can force opponents to play around it while it's in your hand and disrupt their plans when you finally activate it.",
+      "The red and blue level-up choices define your battlefield role the most -- will you rely on your blade to fight minion waves up close or your magic to harass enemies?",
+      "Both green branches enhance your mobility, but require some practice to master."
+    ],
+    "roles": [
+      "Tactician",
+      "Disabler",
+      "Durable",
+      "Pusher"
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 8
+      },
+      {
+        "type": "Initiative",
+        "value": 4
+      },
+      {
+        "type": "Defense",
+        "value": 5,
+        "modifier": 1
+      },
+      {
+        "type": "Movement",
+        "value": 5,
+        "modifier":1
+      }
+    ]
+  },
+  {
+    "name": "Bain",
+    "title": "the Bounty Hunter",
+    "difficulty": 2,
+    "lore": "I wouldn't go around asking questions about Bain. Shady character that one. Some say he is a nobleman, looking for his lost sister, some say he is ut and ordinary drunk. Drunk or not, he is the best shot this side of the desert. Unless you want him for a job, stay clear of him, partner!",
+    "gameplay": [
+      "The psychological effect of the bounty marker should not be underestimated.",
+      "Your silver card can save allies, disrupt enemies, and help clear minion waves faster."
+    ],
+    "roles": [
+      "Tactician",
+      "Sniper",
+      "Healer",
+      "Farming",
+      "Durable"
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5
+      },
+      {
+        "type": "Initiative",
+        "value": 4
+      },
+      {
+        "type": "Defense",
+        "value": 4,
+        "modifier":2
+      },
+      {
+        "type": "Movement",
+        "value": 5,
+        "modifier":1
+      }
+    ]
+  },
+  {
+    "name": "Brogan",
+    "title": "the Destroyer",
+    "difficulty": 1,
+    "lore": "Brogan regained his senses in the midst of battle. War drums resonated with the pounding of his ears, and the elf made a note to quit Drakenhuff Grog. As the enemy mounted their charge, he reached behind him: first feeling the strings of the lute, then the handle of his axe.",
+    "gameplay": [
+      "Your extreme survivability is your greatest advantage. If opponents are focussed on you, they aren't attacking your allies.",
+      "Don't get stranded away from the action.",
+      "Utilize fast travel and attacks with bonus movement to offset your low mobility.",
+      "An attack card in hand can be as much of a threat as an attack card played."
+    ],
+    "roles": [
+      "Durable",
+      "Disabler",
+      "Pusher",
+      "Farming"
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 7
+      },
+      {
+        "type": "Initiative",
+        "value": 1
+      },
+      {
+        "type": "Defense",
+        "value": 8
+      },
+      {
+        "type": "Movement",
+        "value": 2,
+        "modifier":2
+      }
+    ]
+  },
+  {
+    "name": "Brynn",
+    "title": "the Seeker",
+    "difficulty": 3,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 4,
+        "modifier": 4
+      },
+      {
+        "type": "Initiative",
+        "value": 4,
+        "modifier": 0
+      },
+      {
+        "type": "Defense",
+        "value": 7,
+        "modifier": 0
+      },
+      {
+        "type": "Movement",
+        "value": 5,
+        "modifier": 1
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Damager",
+      "Durable"
+    ]
+  },
+  {
+    "name": "Cutter",
+    "title": "the Sky Pirate",
+    "difficulty": 3,
+    "lore": "The daring exploits of Cutter, the captain of the skyship \"Black Sparrow\" are the crowd-favorite in every tavern across the continent! She traded her life of a noble-born debutante for that of a swashbuckler and a scoundrel.",
+    "gameplay": [
+      "Both your gold and red cards can be tricky to land, so use your other tools to set them up.",
+      "Your silver allows you to move long distances at low initiative, enabling aggressive plays",
+      "Primary blue and green rely on timing, but can force tough choices on your opponents",
+      "Your alternate green branch offers reliable mobility and helps set up minion takes.",
+      "Your alt blue can get you extra coin, if you have an action to spare."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 4,
+        "modifier":5
+      },
+      {
+        "type": "Initiative",
+        "value": 6
+      },
+      {
+        "type": "Defense",
+        "value": 4
+      },
+      {
+        "type": "Movement",
+        "value": 4,
+        "modifier":4
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Damager",
+      "Farming"
+    ]
+  },
+  {
+    "name": "Dodger",
+    "title": "the Warlock",
+    "difficulty": 1,
+    "lore": "Dodger hated delving through the dusty tomes. It was always the more practical aspects of dark magic that fascinated her, so when a daemon offered to complete her training by bypassing the boring formalities, it took a mirror for her to realize that there was fine print in that contract.",
+    "gameplay": [
+      "Your main weakness is your low defense. Keep this in mind when leveling up.",
+      "You are stronger when there are many empty minion spawn points in the battle zone, which can be achieved by defeating minions or displacing them through other means.",
+      "Play your silver card on turns when you expect enemy heroes to attack  minions."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 3
+      },
+      {
+        "type": "Initiative",
+        "value": 7
+      },
+      {
+        "type": "Defense",
+        "value": 2,
+        "modifier": 3
+      },
+      {
+        "type": "Movement",
+        "value": 5
+      }
+    ],
+    "roles": [
+      "Damager",
+      "Sniper",
+      "Pusher",
+      "Farming",
+      "Disabler"
+    ]
+  },
+  {
+    "name": "Emmitt",
+    "title": "the Traveler",
+    "difficulty": 4,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5 ,
+        "modifier": 3
+      },
+      {
+        "type": "Initiative",
+        "value": 1,
+        "modifier":0
+      },
+      {
+        "type": "Defense",
+        "value": 6,
+        "modifier":0
+      },
+      {
+        "type": "Movement",
+        "value": 2,
+        "modifier":2
+      }
+    ],
+    "roles": [
+      "Melee",
+      "Tactician",
+      "Durable",
+      "Disabler",
+      "Tokens"
+    ]
+  },
+  {
+    "name": "Garrus",
+    "title": "the Gladiator",
+    "difficulty": 2,
+    "lore": "Garrus was the reigning champion of the Arena until his defeat at the hand of a stranger, who tricked him into losing his temper. He roams the land, seeking to regain his title and his honor. They say that his shield can deflect a point-blank ballista shot. No one has ever dared to check if it's true.",
+    "gameplay": [
+      "Attacking second with your gold card can be an easy way to deal extra damage.",
+      "Your silver can be very effective against heroes with high movement values.",
+      "With certain builds, enemies may be forced to prioritize you as a target when you have a card in the discard. Use this to your advantage."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 8
+      },
+      {
+        "type": "Initiative",
+        "value": 3
+      },
+      {
+        "type": "Defense",
+        "value": 7
+      },
+      {
+        "type": "Movement",
+        "value": 6,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Disabler",
+      "Durable",
+      "Tactician"
+    ]
+  },
+  {
+    "name": "Gydion",
+    "title": "the Archwizard",
+    "difficulty": 4,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5,
+        "modifier": 1
+      },
+      {
+        "type": "Initiative",
+        "value": 3
+      },
+      {
+        "type": "Defense",
+        "value": 3,
+        "modifier": 2
+      },
+      {
+        "type": "Movement",
+        "value": 1,
+        "modifier": 3
+      }
+    ],
+    "roles": [
+      "Sniper",
+      "Tactician",
+      "Farming",
+      "Damager",
+      "Pusher",
+      "Tokens"
+    ]
+  },
+  {
+    "name": "Hanu",
+    "title": "the Trickster",
+    "difficulty": 3,
+    "lore": "A day without mischief is a day wasted. Free from his brother's wise guidance, Hanu roams the ruins of old Atlantean capital, playing tricks on any would-be explorer who is reckless enough to enter the domain of the Great Trickster.",
+    "gameplay": [
+      "Your gold card will help you stay alive as long as you have an escape route.",
+      "Your silver card can assist your allies in landing attacks, but it can also be used on enemy heroes to force them to move early when they intent to go later.",
+      "It's often worth strategizing with your team, even if it reveals your plans. You have many ways to set up your allies for success."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 4
+      },
+      {
+        "type": "Initiative",
+        "value": 8
+      },
+      {
+        "type": "Defense",
+        "value": 1
+      },
+      {
+        "type": "Movement",
+        "value": 7,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Sniper",
+      "Pusher"
+    ]
+  },
+  {
+    "name": "Ignitia",
+    "title": "the Mad",
+    "difficulty": 4,
+    "lore": "There is a fine line between genius and madness and Ignitia is the living proof of this. The dwarven fire-mage is as powerful as she is unpredictable, just like the forces she commands.",
+    "gameplay": [
+      "Always aim to have a target, regardless of which side the tie-breaker coin lands on.",
+      "The effect tied to your team's color are less likely to be thwarted by an untimely coin flip.",
+      "Your silver card allows you to take full control of your powers, but it makes you significantly more vulnerable while in use."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5
+      },
+      {
+        "type": "Initiative",
+        "value": 2
+      },
+      {
+        "type": "Defense",
+        "value": 6
+      },
+      {
+        "type": "Movement",
+        "value": 4,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Sniper",
+      "Damager",
+      "Tokens",
+      "Tactician",
+      "Pusher"
+    ]
+  },
+  {
+    "name": "Min",
+    "title": "the Dragonmonk",
+    "difficulty": 2,
+    "lore": "The monks of the Order of the Dragon once worshiped the ancient beasts. But with their patrons gone, Min and his brothers had to adopt more practical applications of their believes.",
+    "gameplay": [
+      "End movement in straight lines form enemy heroes to utilize your smoke bomb.",
+      "Your gold card can be powered up-even if your red card was used for movement, or defense.",
+      "Mines cover more ground, but are less reliable. Grenades require precise timing."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 4,
+        "modifier": 4
+      },
+      {
+        "type": "Initiative",
+        "value": 8
+      },
+      {
+        "type": "Defense",
+        "value": 3,
+        "modifier": 5
+      },
+      {
+        "type": "Movement",
+        "value": 6
+      }
+    ],
+    "roles": [
+      "Tokens",
+      "Disabler",
+      "Damager",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Misa",
+    "title": "the Samurai",
+    "difficulty": 2,
+    "lore": "Misa will fight against overwhelming odds to protect her master. Unfortunately, she has yet to find anyone worthy of her blade and loyalty.",
+    "gameplay": [
+      "You have only one attack card -- make it count",
+      "Watch for opportunities to use your silver card for extra mobility and self-healing.",
+      "Your primary role in the game heavily depends on your blue and green level-up choices, so ensure they align with your teammates.<br> If your team is focused on winning the waves rather than fighting heroes, you probably don't need the \"Slash and Dash\". ",
+      "Your alt-green card is strong, but tricky to land."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 6
+      },
+      {
+        "type": "Initiative",
+        "value": 7
+      },
+      {
+        "type": "Defense",
+        "value": 5
+      },
+      {
+        "type": "Movement",
+        "value": 1,
+        "modifier": 7
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Durable",
+      "Damager"
+    ]
+  },
+  {
+    "name": "Mortimer",
+    "title": "the Awakener",
+    "difficulty": 3,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 8
+      },
+      {
+        "type": "Initiative",
+        "value": 2
+      },
+      {
+        "type": "Defense",
+        "value": 7
+      },
+      {
+        "type": "Movement",
+        "value": 4
+      }
+    ],
+    "roles": [
+      "Melee",
+      "Tokens",
+      "Farming",
+      "Durable",
+      "Pusher"
+    ]
+  },
+  {
+    "name": "Mrak",
+    "title": "the Rockshaper",
+    "difficulty": 3,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 8
+      },
+      {
+        "type": "Initiative",
+        "value": 1
+      },
+      {
+        "type": "Defense",
+        "value": 8
+      },
+      {
+        "type": "Movement",
+        "value": 2,
+        "modifier":2
+      }
+    ],
+    "roles": [
+      "Melee",
+      "Tokens",
+      "Durable",
+      "Disabler",
+      "Tactician"
+    ]
+  },
+  {
+    "name": "Nebkher",
+    "title": "the Harbinger",
+    "difficulty": 4,
+    "lore": "NebKher is an enigmatic traveler, draped in exotic garb, his face concealed behind a terrifying mask. Those who have encountered him speak of his unnatural powers over the minds of living beings.",
+    "gameplay": [
+      "Keep as many opponents within your range of your gold as possible to maximize your options.",
+      "Your silver allows you to rearrange resolved cards of other heroes, usefull for your gold.",
+      "Your green card, paired with your silver are your main mobility tool. Play them early."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 2,
+        "modifier":1
+      },
+      {
+        "type": "Initiative",
+        "value": 1
+      },
+      {
+        "type": "Defense",
+        "value": 5,
+        "modifier":1
+      },
+      {
+        "type": "Movement",
+        "value": 2,
+        "modifier":3
+      }
+    ],
+    "roles": [
+      "Disabler",
+      "Tokens",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Razzle",
+    "title": "the Fay",
+    "difficulty": 4,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 3
+      },
+      {
+        "type": "Initiative",
+        "value": 8
+      },
+      {
+        "type": "Defense",
+        "value": 1,
+        "modifier":3
+      },
+      {
+        "type": "Movement",
+        "value": 5,
+        "modifier":6
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Rowenna",
+    "title": "the Vanguard",
+    "difficulty": 2,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 8
+      },
+      {
+        "type": "Initiative",
+        "value": 4
+      },
+      {
+        "type": "Defense",
+        "value": 7
+      },
+      {
+        "type": "Movement",
+        "value": 3,
+        "modifier":5
+      }
+    ],
+    "roles": [
+      "Melee",
+      "Durable",
+      "Healer",
+      "Farming",
+      "Pusher",
+      "Tactician"
+    ]
+  },
+  {
+    "name": "Sabina",
+    "title": "the Gunslinger",
+    "difficulty": 1,
+    "lore": "Sabina was unfairly accused of atrocities after a rogue faction of soldiers in similar uniforms commited horrific acts in a neighboring city. Despite her protests of innocence, suspicion weighted heavily upon her. Feeling betrayed by those she once considered, she now leads a band of minions into battle.",
+    "gameplay": [
+      "You become considerably stronger when you are near friendly minions. Stay in formation!",
+      "Use your skills to shuffle minions on the board to foil enemy plans and assist your team.",
+      "Your gold card is a great defensive counter to non-ranged attacks.",
+      "Your choice of red card affects your preferred win condition the most. Choose wisely!"
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 1,
+        "modifier":6
+      },
+      {
+        "type": "Initiative",
+        "value": 5
+      },
+      {
+        "type": "Defense",
+        "value": 3
+      },
+      {
+        "type": "Movement",
+        "value": 5,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Pusher"
+    ]
+  },
+  {
+    "name": "Snorri",
+    "title": "the Runescribe",
+    "difficulty": 4,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5,
+        "modifier":1
+      },
+      {
+        "type": "Initiative",
+        "value": 2
+      },
+      {
+        "type": "Defense",
+        "value": 5,
+        "modifier":1
+      },
+      {
+        "type": "Movement",
+        "value": 4,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Sniper",
+      "Farming",
+      "Durable",
+      "Damager",
+      "Pusher",
+      "Healer"
+    ]
+  },
+  {
+    "name": "Silverarrow",
+    "title": "the Patfinder",
+    "difficulty": 2,
+    "lore": "Silverarrow never imagined she would leave the Forest until the Oracle uttered the prophecy. the hardest step of any path is the very first one; after that, you just keep moving.",
+    "gameplay": [
+      "Your ranged attacks have extended range, but they can easily be disrupted",
+      "Know your weaknesses and don't let your enemies catch you off guard. Staying too close to enemy units makes you vulnerable, so maintain your distance.",
+      "However, don't be tempted to avoid the fight entirely - your allies rely on your firepower and utility skills, and abandoning them could cost you the game."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 2
+      },
+      {
+        "type": "Initiative",
+        "value": 8
+      },
+      {
+        "type": "Defense",
+        "value": 1
+      },
+      {
+        "type": "Movement",
+        "value": 7,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Sniper",
+      "Damager",
+      "Disabler",
+      "Healer",
+      "Farming"
+    ]
+  },
+  {
+    "name": "Swift",
+    "title": "the Sharpshooter",
+    "difficulty": 3,
+    "lore": "When Swift's application to the Royal Fleet Academy was declined, she didn't give up on her dreams of roaming the skies. She joined the mobile scouts, just before the Last War, and earned her place as the best shot of her regiment.",
+    "gameplay": [
+      "Threatening to attack both an enemy hero and a minion forces a hero to react.",
+      "The sniper rifle is more effective for pushing, while the shotgun excels against heroes.",
+      "Sometimes, it's better to use your gold card to defeat an adjacent minion.",
+      "If you're having difficulty landing attacks, rely on your blue and green Tactician skills."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5
+      },
+      {
+        "type": "Initiative",
+        "value": 4
+      },
+      {
+        "type": "Defense",
+        "value": 2
+      },
+      {
+        "type": "Movement",
+        "value": 3,
+        "modifier": 4
+      }
+    ],
+    "roles": [
+      "Sniper",
+      "Farming",
+      "Tactician"
+    ]
+  },
+  {
+    "name": "Takahide",
+    "title": "the Warlord",
+    "difficulty": 4,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5,
+        "modifier":2
+      },
+      {
+        "type": "Initiative",
+        "value": 3,
+        "modifier":2
+      },
+      {
+        "type": "Defense",
+        "value": 4,
+        "modifier":3
+      },
+      {
+        "type": "Movement",
+        "value": 1,
+        "modifier":4
+      }
+    ],
+    "roles": [
+      "Durable",
+      "Sniper",
+      "Tactician",
+      "Damager",
+      "Farming"
+    ]
+  },
+  {
+    "name": "Tali",
+    "title": "the Spirit Caller",
+    "difficulty": 3,
+    "lore": "When she heared their voices for the first time, no one believed her. Tali held no grudges. When the frost beasts threatened her tribe, she did what she had to do. And when the village was saved, she left - the spirits were calling her.",
+    "gameplay": [
+      "Tali relies on her teammates to do the right thing. Make sure you are all on the same page",
+      "Know when you can afford to discard a card.",
+      "Your basic attack benefits from attack items more than most."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 4,
+        "modifier":2
+      },
+      {
+        "type": "Initiative",
+        "value": 5,
+        "modifier":3
+      },
+      {
+        "type": "Defense",
+        "value": 4
+      },
+      {
+        "type": "Movement",
+        "value": 5
+      }
+    ],
+    "roles": [
+      "Damager",
+      "Pusher",
+      "Healer",
+      "Durable",
+      "Tokens"
+    ]
+  },
+  {
+    "name": "Tigerclaw",
+    "title": "the cutpurse",
+    "difficulty": 1,
+    "lore": "Tigerclaw is as elusive as a shadow in the desert. A useful quality to have, when half of the continent wants you dead and the other half wants you quartered first and then dead.",
+    "gameplay": [
+      "The best defense is to not get hit at all.",
+      "Use mobility and your silver card to stay alive.",
+      "Ranged attacks and discard are the mean threats to you.",
+      "Enemies can deny your basic attack by blocking a crucial space. Don't let them!"
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 4,
+        "modifier": 4
+      },
+      {
+        "type": "Initiative",
+        "value": 8
+      },
+      {
+        "type": "Defense",
+        "value": 1,
+        "modifier": 3
+      },
+      {
+        "type": "Movement",
+        "value": 7,
+        "modifier": 1
+      }
+    ],
+    "roles": [
+      "Melee",
+      "Disabler",
+      "Farming"
+    ]
+  },
+  {
+    "name": "Trinkets",
+    "title": "the Scavenger",
+    "difficulty": 3,
+    "lore": "Trinkets is really smart. Well, by kobold standards, that is. He was expelled from the Drakenhuff after almost destroying the entire city. When he is not busy constructing devices, or unearthing spare parts, he is tinkering with his automated turret.",
+    "gameplay": [
+      "Plan ahead when placing your turret to avoid spending actions on moving it each round.",
+      "Use the turret to tactically block key spaces.",
+      "Your level-up choices significantly influence your strategic options, so choose wisely."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 3,
+        "modifier":2
+      },
+      {
+        "type": "Initiative",
+        "value": 6
+      },
+      {
+        "type": "Defense",
+        "value": 2,
+        "modifier":2
+      },
+      {
+        "type": "Movement",
+        "value": 7,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Sniper",
+      "Damager",
+      "Pusher",
+      "Tokens"
+    ]
+  },
+  {
+    "name": "Ursafar",
+    "title": "the Savage",
+    "difficulty": 2,
+    "lore": "When Ursafar roars, the forest beasts cower in their icy caves, and the tribesmen place fresh fish outside their igloos to appease the great bear",
+    "gameplay": [
+      "You excel when enemies come to you; don't waste precious movement on pursuits.",
+      "Often, the best way to fuel your rage is by attacking a minion with your red and gold cards. Use your blues as a backup source of rage.",
+      "Your biggest weakness is low base mobility, and your worst nightmare is finding yourself on the wrong side of the board after a lane push.",
+      "Once enraged, you can use your gold, followed by your silver, as powerful zoning tools."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 7
+      },
+      {
+        "type": "Initiative",
+        "value": 6
+      },
+      {
+        "type": "Defense",
+        "value": 7
+      },
+      {
+        "type": "Movement",
+        "value": 1,
+        "modifier": 4
+      }
+    ],
+    "roles": [
+      "Durable",
+      "Pusher",
+      "Farming",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Wasp",
+    "title": "the Warmaiden",
+    "difficulty": 1,
+    "lore": "As all heiresses to the throne of the Gilded Empire, Wasp was exiled from the palace as soon as she could hold a dagger. She needs to learn how to control her powers before she can face the ultimate challenge and claim her birthright.",
+    "gameplay": [
+      "Your basic cards can lock down enemy heroes, preventing their escape or stopping them from threatening you or your allies.",
+      "While you can successfully fight in melee, you cannot afford to absorb repeated damage or high-value attacks, so choose your targets wisely and know when to disengage.",
+      "You have many tools to displace your enemies -- by placing, pushing, or swapping them. Use these to help your team win the minion waves."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5
+      },
+      {
+        "type": "Initiative",
+        "value": 6
+      },
+      {
+        "type": "Defense",
+        "value": 4,
+        "modifier": 1
+      },
+      {
+        "type": "Movement",
+        "value": 5
+      }
+    ],
+    "roles": [
+      "Disabler",
+      "Tactician",
+      "Sniper"
+    ]
+  },
+  {
+  "name": "Whisper",
+  "title": "the Outcast",
+  "difficulty": 2,
+  "lore": "Whisper was the Grand Judicator of the Underkingdom when he condemned a powerful noble attempting to escape punishment. Refusing to look the other way, he was blinded and left to die. As if he wasn't dead in the first place! The fools!",
+  "gameplay": [
+    "You primary weakness is your limited mobility, with the exception of your green cards.",
+    "Your gold card can assist your allies in hunting down enemy heroes or scaring them away.",
+    "However, time your gold carefully; if used at the wrong moment, the target might escape.",
+    "Your silver card makes you difficult to kill, provided there is a wounded enemy nearby."
+  ],
+  "stats": [
+    {
+      "type": "Attack",
+      "value": 7
+    },
+    {
+      "type": "Initiative",
+      "value": 7
+    },
+    {
+      "type": "Defense",
+      "value": 4
+    },
+    {
+      "type": "Movement",
+      "value": 3,
+      "modifier": 2
+    }
+  ],
+  "roles": [
+    "Damager",
+    "Durable",
+    "Tactician",
+    "Pusher1"
+  ]},
+  {
+    "name": "Widget",
+    "title": "the Dragonbonded",
+    "difficulty": 3,
+    "lore": "",
+    "gameplay": [
+      "",
+      "",
+      ""
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5
+      },
+      {
+        "type": "Initiative",
+        "value": 4
+      },
+      {
+        "type": "Defense",
+        "value": 4
+      },
+      {
+        "type": "Movement",
+        "value": 5,
+        "modifier":1
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Pusher",
+      "Damager"
+    ]
+  },
+  {
+    "name": "Wuk",
+    "title": "the Grovekeeper",
+    "difficulty": 3,
+    "lore": "The Grove doesn't need protection; Wuk simply chooses to stay here. Trees make the best company when you prefer not to be disturbed. If you're daring enough to enter his domain, whatever you do, don't touch the trees.",
+    "gameplay": [
+      "Plan ahead. Where will you need those trees next turn? And what about in the next round?",
+      "You can use trees to block key spaces.",
+      "Mobility is not your strongest attribute, so move along when the wave is about to push."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5
+      },
+      {
+        "type": "Initiative",
+        "value": 1
+      },
+      {
+        "type": "Defense",
+        "value": 8
+      },
+      {
+        "type": "Movement",
+        "value": 3,
+        "modifier": 1
+      }
+    ],
+    "roles": [
+      "Tokens",
+      "Pusher",
+      "Durable",
+      "Sniper",
+      "Tactician",
+      "Healer"
+    ]
+  },
+  {
+    "name": "Xargatha",
+    "title": "the Changed",
+    "difficulty": 1,
+    "lore": "Xargatha was the high priestess of the sacred shrine when it was descerated and the holy relic was stolen. Her anger and grief were so powerful, that they've changed her into a monster. She abandoned the temple to find the thieves and return the relic",
+    "gameplay": [
+      "Surround yourself with enemy minions to boost your powers, but be careful not to overextend.",
+      "Your silver card is versatile, helping you farm minions, assist allies, and set up ambushes.",
+      "You can use high movement on your primary red card to pursue wounded enemy heroes and finish them off with your gold card."
+    ],
+    "stats": [
+      {
+        "type": "Attack",
+        "value": 5,
+        "modifier": 3
+      },
+      {
+        "type": "Initiative",
+        "value": 3
+      },
+      {
+        "type": "Defense",
+        "value": 6
+      },
+      {
+        "type": "Movement",
+        "value": 6
+      }
+    ],
+    "roles": [
+      "Tactician",
+      "Pusher",
+      "Disabler",
+      "Durable",
+      "Sniper"
+    ]}
+]
+

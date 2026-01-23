@@ -892,6 +892,93 @@
       "Healer",
       "Durable",
       "Tokens"
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "level": 1,
+        "name": "Commune With Spirits",
+        "initiative": 13,
+        "actions": [
+          {
+            "isPrimary": true,
+            "type": "Basic Skill",
+            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
+            "parameters": {
+              "type": "Defense",
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "type":"gold",
+        "level": 1,
+        "name": "Produce With Spirits",
+        "initiative": 13,
+        "actions": [
+          {
+            "isPrimary": true,
+            "type": "Basic Skill",
+            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
+            "parameters": {
+              "type": "Defense",
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Commune With Spirits",
+        "initiative": 13,
+        "actions": [
+          {
+            "isPrimary": true,
+            "type": "Basic Skill",
+            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
+            "parameters": {
+              "type": "Defense",
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Commune With Spirits",
+        "initiative": 13,
+        "actions": [
+          {
+            "isPrimary": true,
+            "type": "Basic Skill",
+            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
+            "parameters": {
+              "type": "Defense",
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Commune With Spirits",
+        "initiative": 13,
+        "actions": [
+          {
+            "isPrimary": true,
+            "type": "Basic Skill",
+            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
+            "parameters": {
+              "type": "Defense",
+              "value": 2
+            }
+          }
+        ]
+      }
     ]
   },
   {

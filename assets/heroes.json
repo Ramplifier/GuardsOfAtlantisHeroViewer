@@ -35,6 +35,516 @@
         "value": 5,
         "modifier":1
       }
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Spell Break",
+        "initiative": 13,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "effect":"<strong>This turn:</strong> Enemy heroes in radius cannot perform Skill actions, except on the gold cards. <br><br><i>Skill is an action type. Other action types are unaffected.</i>"
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Ceremonial Blade",
+        "initiative": 10,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              }
+            ],
+            "effect": "Target a hero adjacent to you. <br> Before the attack. You may move a minion that is adjacent to you to the target 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Noble Blade",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              }
+            ],
+            "effect": "Target a unit adjacent to you. <br> Before the attack. You may move a minion that is adjacent to you to the target 1 space.<br><br><i>\"Another unit\" never includes you.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Dangerous Current",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 6
+              }
+            ],
+            "effect": "Target a unit adjacent to you. Before the attack: Up to 1 enemy hero in any of the 2 spaces in a straight line directly behind the target discards a card, or is defeated."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Raging Stream",
+        "bonus": "initiative",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. Before the attack: Up to 1 enemy hero in any of the 3 spaces in a straight line directly behind the target discards a card, or is defeated."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Rogue Wave",
+        "bonus": "defense",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range.<br><br>After the attack: You may push an enemy unit adjacent to you up to 2 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Violent current",
+        "initiative": 9,
+        "Bonus": "initiative",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 7
+              }
+            ],
+            "effect": "Target a unit adjacent to you. Before the attack: Up to 1 enemy hero in any of the 5 spaces in a straight line directly behind the target discards a card, or is defeated. May repeat once on a different target."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Winter Scepter",
+        "initiative": 8,
+        "bonus": "movement",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4,
+                "modifiable": true
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range.<br><br>After the attack: You may push an enemy unit adjacent to you up to 3 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Aspiring Duelist",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "parameter":[
+              {
+                "type": "Defense",
+                "value": 5
+              }
+            ],
+            "effect": "Ignore all minion defense modifiers."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Expert Duelist",
+        "bonus": "defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 6
+              }
+            ],
+            "effect": "Ignore all minions defense modifiers.<br><strong>This turn:</strong> You are immune to to attack actions of all enemy heroes, except this attacker."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Slippery Ground",
+        "bonus": "attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 4
+              }
+            ],
+            "effect": "<strong>This turn:</strong> Enemy heroes adjacent to you cannot fast travel, or move more than 1 space with a movement action."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Master Duelist",
+        "bonus": "range",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 6
+              }
+            ],
+            "effect": "Ignore all minions defense modifiers.<br><strong>This round:</strong> You are immune to to attack actions of all enemy heroes, except this attacker."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Deluge",
+        "bonus": "attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 3
+              },
+              {
+                "type": "Radius",
+                "value": 1
+              }
+            ],
+            "effect": "<strong>This turn:</strong> Enemy heroes adjacent to you cannot fast travel, or move more than 1 space with a movement action."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Liquid Leap",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Place yourself into a space in range without a spawn point and not adjacent to an empty spawn point."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Magical Current",
+        "bonus": "Attack",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Place yourself into a space in range without a spawn point and not adjacent to an empty spawn point."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Arcane Whirlpool",
+        "bonus": "defense",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Swap with an enemy minion in range.<br><br><i>Swap places with the target. This is not movement.</>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Stranger Tide",
+        "bonus": "Radius",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Place yourself into a space in range without a spawn point."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Ebb and Flow",
+        "bonus": "defense",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Swap with an enemy minion in range;<br><br><i>If it was adjacent to you, you may repeat once..</>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Reign of Winter",
+        "actions": {
+          "primary": {
+            "type": "ultimate",
+            "effect": "Once per turn, before performing an Attack action, you may move 1 space."
+          }
+        }
+      }
     ]
   },
   {
@@ -899,85 +1409,233 @@
         "level": 1,
         "name": "Commune With Spirits",
         "initiative": 13,
-        "actions": [
-          {
-            "isPrimary": true,
+        "actions": {
+          "primary": {
             "type": "Basic Skill",
-            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
-            "parameters": {
-              "type": "Defense",
+            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
               "value": 2
             }
-          }
-        ]
+          ]
+        }
       },
       {
         "type":"gold",
         "level": 1,
-        "name": "Produce With Spirits",
-        "initiative": 13,
-        "actions": [
-          {
-            "isPrimary": true,
-            "type": "Basic Skill",
-            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
-            "parameters": {
+        "name": "Ice Blast",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Area",
+                "value": 4
+              }
+            ],
+            "effect": "Target a unit adjacent to you. If the target discards a card to defend, After the attack: Another enemy hero in radius discards a card of the same color, if able."
+          },
+          "secondary": [
+            {
               "type": "Defense",
-              "value": 2
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
             }
-          }
-        ]
+          ]
+        }
       },
       {
         "type":"red",
         "level": 1,
-        "name": "Commune With Spirits",
-        "initiative": 13,
-        "actions": [
-          {
-            "isPrimary": true,
-            "type": "Basic Skill",
-            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
-            "parameters": {
+        "name": "Winter Dagger",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2,
+                "modifiable": true
+              },
+              {
+                "type": "Area",
+                "value": 4
+              }
+            ],
+            "effect": "Target a unit adjacent to you. +3 attack if this card is not in the discard."
+          },
+          "secondary": [
+            {
               "type": "Defense",
-              "value": 2
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
             }
-          }
-        ]
+          ]
+        }
       },
       {
         "type":"red",
         "level": 2,
-        "name": "Commune With Spirits",
-        "initiative": 13,
-        "actions": [
-          {
-            "isPrimary": true,
-            "type": "Basic Skill",
-            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
-            "parameters": {
+        "name": "Winter Spear",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3,
+                "modifiable": true
+              },
+              {
+                "type": "Area",
+                "value": 4
+              }
+            ],
+            "effect": "Target a unit adjacent to you. +3 attack if this card is not in the discard."
+          },
+          "secondary": [
+            {
               "type": "Defense",
-              "value": 2
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
             }
-          }
-        ]
+          ]
+        }
       },
       {
         "type":"red",
         "level": 2,
-        "name": "Commune With Spirits",
-        "initiative": 13,
-        "actions": [
-          {
-            "isPrimary": true,
-            "type": "Basic Skill",
-            "effect":"A friendly hero in play names a color. You may discard a card of that color. Perform the primary action on a card of that color in your discard.",
-            "parameters": {
+        "name": "Spirit Wolf",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "If this card is not in the discard, target a unit in range. <br> Target a unit adjacent to you."
+          },
+          "secondary": [
+            {
               "type": "Defense",
-              "value": 2
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 4
             }
-          }
-        ]
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Winter Scepter",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. +3 attack if this card is not in the discard."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Spirit Bear",
+        "initiative": 9,
+        "bonus": "radius",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Area",
+                "value": 4
+              }
+            ],
+            "effect": "Choose one, or both, on different targets: <br> If this card is not in the discard, target a unit in range. <br> Target a unit adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Reign of Winter",
+        "actions": {
+          "primary": {
+            "type": "ultimate",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. +3 attack if this card is not in the discard."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 6
+            }
+          ]
+        }
       }
     ]
   },

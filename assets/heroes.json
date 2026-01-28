@@ -625,11 +625,12 @@
     "name": "Brynn",
     "title": "the Seeker",
     "difficulty": 3,
-    "lore": "",
+    "lore": "Born in a remote mountain settlement, Brynn was expected to become a healer like her mother. However, her true passion lay in braving the surrounding wilderness. When a mysterious plague struck and even her mother fell ill, Brynn set out for hte fabled grove where the only cure could be found.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "When the condition isn't met, your cards still have an effect. The non-conditional part is less powerful but much more reliable.",
+      "Coordinate with your team - they can help you unlock the full potential of your cards",
+      "Your red ranged attack makes you a better pusher but also leaves you more vulnerable.",
+      "Use your silver to help your team get minions."
     ],
     "stats": [
       {
@@ -738,11 +739,10 @@
     "name": "Emmitt",
     "title": "the Traveler",
     "difficulty": 4,
-    "lore": "",
+    "lore": "Emmitt the Traveler is a visitor from the distant future. Armed with a portable time-travel device, he fights to restore fractured timelines, using both his sharp mind and the occasional power-fist punch, appearing where and when he is needed most.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "The effect of your gold card impacts everyone, so be cautious not to endanger your allies.",
+      "Use your silver to boost mobility, but remember it makes you most vulnerable."
     ],
     "stats": [
       {
@@ -813,10 +813,10 @@
     "name": "Gydion",
     "title": "the Archwizard",
     "difficulty": 4,
-    "lore": "",
+    "lore": "Gydion the Archwizard is an odd blend of ancient wisdom and forgetfulness that could make a goldfish look like a meticulous archivist. Despite this, he has an uncanny knack for invoking the right spells at exactly the right movement.",
     "gameplay": [
-      "",
-      "",
+      "When casting spells, treat the actions on spell cards like any other actions.",
+      "Keep spells you cannot cast yet in a seperate facedown pile while they stay in the spellbook",
       ""
     ],
     "stats": [
@@ -998,11 +998,10 @@
     "name": "Mortimer",
     "title": "the Awakener",
     "difficulty": 3,
-    "lore": "",
+    "lore": "Mortimer the Awakener wields an ancient relic from a bygone age, forged from obsidian and infused with the pure essence of Death Metal. As he plucks the strings of this instrument, the fallen souls of his loyal fans ris.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "Use the zombies to ozne and block enemy heroes, but be cautious not to obstruct friendly heroes movements.",
+      "You are considerably stronger at higher levels, and your farm blue can get you there fast"
     ],
     "stats": [
       {
@@ -1034,11 +1033,11 @@
     "name": "Mrak",
     "title": "the Rockshaper",
     "difficulty": 3,
-    "lore": "",
+    "lore": "In the shadows beneath the old cobblestone bridge, where whispers of forgotten tales and echoes of passing travelers intertwine, resides Mrak. As benefits a retired troll geomancer, he isn't particularly fond of un expected guests.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "Mrak specializes in area denial and control.",
+      "You are difficult to take down, especially if you level-up the alternative red branch.",
+      "If you struggle with low mobility, the alternative green branch will get you rolling."
     ],
     "stats": [
       {
@@ -1108,11 +1107,12 @@
     "name": "Razzle",
     "title": "the Fay",
     "difficulty": 4,
-    "lore": "",
+    "lore": "A lesser known fact about magical mirrors is that they break easily. Razzle froze as her mirror shattered into a myrriad of twinkling fragments, as if a troupe of mischievous pixies had decided to test their acrobatic skills. When the silence fell, she found herself surrounded by a host of identical faces, each wearing an expression of utter confusion.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "At the start of the game or when you respawn, there's only one of you placed on the board.",
+      "Once a copy is spawned, you cannot spawn it again with your gold card.",
+      "The more of you in play, the stronger you are.",
+      "Your survival often relies on keeping your clones in radius of your silver card."
     ],
     "stats": [
       {
@@ -1143,11 +1143,11 @@
     "name": "Rowenna",
     "title": "the Vanguard",
     "difficulty": 2,
-    "lore": "",
+    "lore": "From a young age. Rowenna dreamed of becoming a knight. She trained relentlessly, honing her combat skills and mastering the code of chivalry. whether facing monsterous beasts or overwhelming odds, Rewenna stands unwavering, ready to defend the innocent, support her comrades,, and lead her troops to victory.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "Your silver is most effective when jumping to a space adjacent to multiple enemy units.",
+      "Your best chance to defeat an enemy hero with your gold card is when they have a low defense card in their discard.",
+      "Talk to your teammates to maximize the impact of your red cards."
     ],
     "stats": [
       {
@@ -1217,11 +1217,10 @@
     "name": "Snorri",
     "title": "the Runescribe",
     "difficulty": 4,
-    "lore": "",
+    "lore": "Like any other self-respecting dwarf, Snorri never planned to go on an adventure. That plan went out south when his former apprentice strayed from the path of tradition and delved into the murky realm of experimental runic graffiti. Snorri needed to adjust his plans ",
     "gameplay": [
-      "",
-      "",
-      ""
+      "Plan ahead. Readjusting rune placement costs you an action",
+      "The higher your level, the more versatile you become. Ensure you get enough coins."
     ],
     "stats": [
       {
@@ -1330,11 +1329,11 @@
     "name": "Takahide",
     "title": "the Warlord",
     "difficulty": 4,
-    "lore": "",
+    "lore": "Takehide rose to become a feared warlord, leading his armies from victory to victory - until a lone warrior refused ot obey his orders. Now, he is consumed by a relentless obsession to crush this warrior from defying him.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "You have access to three gold cards, instead of one, though only one of them is in your hand (until you reach the ultimate.",
+      "Plan ahead, and try to have the exact gold card that you need in your hand at the exact time when you need it.",
+      "A lot of skills require allies to have discarded cards. Talk to your allies and make sure you work together as a team."
     ],
     "stats": [
       {
@@ -1827,11 +1826,12 @@
     "name": "Widget",
     "title": "the Dragonbonded",
     "difficulty": 3,
-    "lore": "",
+    "lore": "Widget's tribe clung to the old ways - quite unusual for kobolds. The young warrior paid little attention to fairy tales or the dusty prophecies about the dragons' return, until one journey let her to a strange egg. When it hatched, she named the youngling Pyro.",
     "gameplay": [
-      "",
-      "",
-      ""
+      "Pyro is Widget's dragon companion, who you can summon using her silver card.",
+      "While Pyro is on the board, Widget becomes significantly more powerful.",
+      "Although Pyro is represented by a miniature, he counts as a token and so can be removed by a \"Clear\" action - keep him out of trouble.",
+      "Winning with this duo comes to properly positioning Pyro and timing your gold card."
     ],
     "stats": [
       {

@@ -2574,7 +2574,7 @@
     "lore": "Dodger hated delving through the dusty tomes. It was always the more practical aspects of dark magic that fascinated her, so when a daemon offered to complete her training by bypassing the boring formalities, it took a mirror for her to realize that there was fine print in that contract.",
     "gameplay": [
       "Your main weakness is your low defense. Keep this in mind when leveling up.",
-      "You are stronger when there are many empty minion spawn points in the battle zone, which can be achieved by defeating minions or displacing them through other means.",
+      "You are stronger when there are many empty minion spawn points in the battlezone, which can be achieved by defeating minions or displacing them through other means.",
       "Play your silver card on turns when you expect enemy heroes to attack  minions."
     ],
     "stats": [
@@ -14628,7 +14628,7 @@
                     "value": 2
                   }
                 ],
-                "effect": "Before the attack: You may move up to 1 space if there is an empty minion spawn in radius in the battle zone. Target a unit adjacent to you."
+                "effect": "Before the attack: You may move up to 1 space if there is an empty minion spawn in radius in the battlezone. Target a unit adjacent to you."
               },
               "secondary": [
                 {
@@ -14660,7 +14660,7 @@
                     "value": 2
                   }
                 ],
-                "effect": "Before the attack: You may move up to 1 space for every empty minion spawn empty minion spawn in radius in the battle zone, up to a maximum of 2 spaces. Target a unit adjacent to you."
+                "effect": "Before the attack: You may move up to 1 space for every empty minion spawn empty minion spawn in radius in the battlezone, up to a maximum of 2 spaces. Target a unit adjacent to you."
               },
               "secondary": [
                 {
@@ -14722,7 +14722,7 @@
                     "value": 2
                   }
                 ],
-                "effect": "Before the attack: You may move up to 1 space for every empty minion spawn empty minion spawn in radius in the battle zone, up to a maximum of 3 spaces. Target a unit adjacent to you."
+                "effect": "Before the attack: You may move up to 1 space for every empty minion spawn empty minion spawn in radius in the battlezone, up to a maximum of 3 spaces. Target a unit adjacent to you."
               },
               "secondary": [
                 {
@@ -14920,7 +14920,7 @@
                     "value": 3
                   }
                 ],
-                "effect": "Place yourself into an empty minion spawn point in range in the battle zone."
+                "effect": "Place yourself into an empty minion spawn point in range in the battlezone."
               },
               "secondary": [
                 {
@@ -14948,7 +14948,7 @@
                     "value": 4
                   }
                 ],
-                "effect": "Place yourself into an empty minion spawn point in range in the battle zone."
+                "effect": "Place yourself into an empty minion spawn point in range in the battlezone."
               },
               "secondary": [
                 {
@@ -15002,7 +15002,7 @@
                     "value": 4
                   }
                 ],
-                "effect": "Place yourself into an empty minion spawn point in range in the battle zone, into a space in range adjacent to such a spawn point."
+                "effect": "Place yourself into an empty minion spawn point in range in the battlezone, into a space in range adjacent to such a spawn point."
               },
               "secondary": [
                 {

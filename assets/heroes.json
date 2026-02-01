@@ -202,7 +202,7 @@
       },
       {
         "type":"red",
-        "level": 2,
+        "level": 3,
         "name": "Violent current",
         "initiative": 9,
         "Bonus": "initiative",
@@ -448,7 +448,7 @@
           ]
         }
       },
-      {
+       {
         "type":"green",
         "level": 2,
         "name": "Arcane Whirlpool",
@@ -479,7 +479,7 @@
       },
       {
         "type":"green",
-        "level": 2,
+        "level": 3,
         "name": "Stranger Tide",
         "bonus": "Radius",
         "initiative": 4,
@@ -537,7 +537,7 @@
       },
       {
         "type":"purple",
-        "name": "Reign of Winter",
+        "name": "Living Tsunami",
         "actions": {
           "primary": {
             "type": "ultimate",
@@ -582,6 +582,512 @@
         "value": 5,
         "modifier":1
       }
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Get over here!",
+        "initiative": 13,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill - Ranged",
+            "parameters": [
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect":"Target a unit or a token in a straight line and in range with no obstacles between you and the target; move the target towards you in a straight line, until you are adjacent."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Side Quest",
+        "initiative": 10,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "If you are adjacent to an enemy unit, give a hero in radius a bounty marker. The hero with a bounty marker spends 1 additional life counter when defeated."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Dead or Alive",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              }
+            ],
+            "effect": "Target a unit acjacent to you.<br>After the attack: You may give an enemy hero in radius a bounty marker, a hero with a bounty marker spends 1 additional life counter when defeated."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Light Crossbow",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in a straight line and in range with no units, or terrain between you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Heavy crossbow",
+        "bonus": "Defense",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Target a unit in a straight line and in range with no units, or terrain between you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Hand Crossbow",
+        "bonus": "Initiative",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Chose one -- </b><br><ul><li>Target a hero in range with a bounty marker.</li><li>Target a unit adjacent to you.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Arbalest",
+        "initiative": 9,
+        "Bonus": "Defense",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 6
+              },
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Target a unit in a straight line and in range with no units, or terrain between you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Hunter-Seeker",
+        "initiative": 9,
+        "bonus": "Movement",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Chose one, or both, on a different targets -- </b><br><ul><li>Target a hero in range with a bounty marker.</li><li>Target a unit adjacent to you.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "A Game of Change",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "An enemy hero in radius with two or more cards in hand chooses one of those cards; Guess the card's color, then reveal the card; If you guessed correctly, discard that card; otherwise you gain one coin.<br><i>You can only guess colors that could be in that player's hand.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Dead Man's Hand",
+        "bonus": "Defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "An enemy hero in radius with two or more cards in hand chooses one of those cards; Guess the card's color, then reveal the card; If you guessed correctly, discard that card; otherwise you gain 2 coins."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Drinking Buddies",
+        "bonus": "Attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "You may have a hero in radius retrieve a discarded card, you may also retrieve a discarded card."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Master Duelist",
+        "bonus": "Range",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "An enemy hero in radius with two or more cards in hand chooses one of those cards; Guess the card's color, then reveal the card; If you guessed correctly, discard that card; otherwise may repeat once or gain 2 coins."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Another one",
+        "bonus": "attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "You may have a hero in radius retrieve a discarded card, you may also retrieve a discarded card. <br><br><b>End of turn:</b> May repeat once."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Close Call",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "effect": "If a hero in play has a bounty marker, block the attack and that hero gives the marker to you.(The marker's effect is applied to you)."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Narrow Escape",
+        "bonus": "Initiative",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "effect": "If a hero in play has a bounty marker, block the attack and retrieve the marker."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Vantage Point",
+        "bonus": "Attack",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 2,
+                "modifiable": true
+              }
+            ],
+            "effect": "Ignore obstacles. If a hero in play has a bounty marker, +1 movement."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Perfect Getaway",
+        "bonus": "Initiative",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "effect": "If a hero in play has a bounty marker, block the attack."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "High Ground",
+        "bonus": "Radius",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 2,
+                "modifiable": true
+              }
+            ],
+            "effect": "Ignore obstacles. If a hero in play has a bounty marker, +2 movement."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "A Complicated Profession",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "After you give a hero a bounty marker that hero discards a card, if able."
+          }
+        }
+      }
     ]
   },
   {
@@ -618,6 +1124,502 @@
         "type": "Movement",
         "value": 2,
         "modifier":2
+      }
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Bulwark",
+        "initiative": 12,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameters": [
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect":"You may retrieve a discarded card. <b>This turn:</b> You and friendly units in radius cannot be moved, pushed, swapped or placed by enemy heroes."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Leap Forward",
+        "initiative": 10,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              }
+            ],
+            "effect": "Target a hero adjacent to you. After the attack: Move into the space it occupied."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Onslaught",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              }
+            ],
+            "effect": "Target a hero adjacent to you. After the attack: Move into the space it occupied."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Mad Dash",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 7
+              }
+            ],
+            "effect": "Before the attack: Move 2 spaces in a straight line to a space adjacent to an enemy unit, then target that unit. <br><br><i>If you cannot make this move, you cannot attack.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Bullrush",
+        "bonus": "Initiative",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 6
+              }
+            ],
+            "effect": "Before the attack: Move 2 or 3 spaces in a straight line to a space adjacent to an enemy unit, then target that unit."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 8
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Throwing Axe",
+        "bonus": "Defense",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Chose one -- </b><br><ul><li>Target a unit adjacent to you.</li><li>You may discard a card; if you do, target a unit in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Furious Charge",
+        "initiative": 8,
+        "Bonus": "Movement",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 7
+              }
+            ],
+            "effect": "Before the attack: Move 2, 3 or 4 spaces in a straight line to a space adjacent to an enemy unit, then target that unit."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 8
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Throwing Spear",
+        "initiative": 8,
+        "bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Chose one -- </b><br><ul><li>Target a unit adjacent to you.</li><li>You may discard a card; if you do, target a unit in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Brutal Jab",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move 1 space. Push the enemy unit or a token adjacent to you up to one space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Mighty Punch",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move 1 space. Push the enemy unit or a token adjacent to you up to 2 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Shield Bash",
+        "bonus": "Attack",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "An enemy hero adjacent to you, who has played an attack card this turn discards a card, if able."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Savage Kick",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move up to 2 spaces. Push the enemy unit or a token adjacent to you up to 2 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Counterattack",
+        "bonus": "Range",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "An enemy hero adjacent to you, who has played an attack card this turn discards a card, or is defeated."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Shield",
+        "initiative": 6,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 1
+              }
+            ],
+            "effect": "<b>This round:</b> When any friendly minion in radius is defeated you may discard a silver card. If you do, the minion is not removed. <br><i>The enemy hero still gains the coins for defeating the minion.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Bolster",
+        "bonus": "Attack",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "<b>This round:</b> When any friendly minion in radius is defeated you may discard a silver card. If you do, the minion is not removed. <br><i>The enemy hero still gains the coins for defeating the minion.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "War Drummer",
+        "bonus": "Defense",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "A friendly hero in range gains 1 coin; if any hero is defeated this round, that friendly hero gains 3 coins, instead."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Perfect Getaway",
+        "bonus": "Attack",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "<b>This round:</b> When any friendly minion in radius is defeated you may discard a basic card. If you do, the minion is not removed. <br><i>The enemy hero still gains the coins for defeating the minion.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Master Skald",
+        "bonus": "Defense",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "A friendly hero in range gains 2 coin; if any hero is defeated this round, that friendly hero gains 4 coins, instead."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "One Man Army",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "During minion battle you count as a heavy minion; if you would be removed, lose the push instead."
+          }
+        }
       }
     ]
   },
@@ -658,6 +1660,535 @@
       "Tactician",
       "Damager",
       "Durable"
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Decoy",
+        "initiative": 1,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameters": [
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect":"<b>Choose up to two times,</b> on different targets -- <br><ul><li>Move an enemy minion in radius 1 space.</li><li>Move an enemy hero in radius who is adjacent to 3 or more obstacles 1 space.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Home Turf",
+        "initiative": 11,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one --</b><br><ul><li>Target a hero adjacent to you.</li><li>Target a hero in range who is adjacent to 3 or more obstacles.</li></ul><br><i>You, other heroes, minions, tokens and terrain are obstacles.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Familiar Ground",
+        "initiative": 12,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Choose one --</b><br><ul><li>Target a hero adjacent to you.</li><li>Target a hero in range who is adjacent to 3 or more obstacles.</li></ul><br><i>You, other heroes, minions, tokens and terrain are obstacles.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "High Ground",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. If you target a hero to 3 or more obstacles, +2 attack."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Elevated Ambush",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. If you target a hero to 3 or more obstacles, +2 attack."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Split Attack",
+        "bonus": "Defense",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Attack",
+                "value": 6
+              }
+            ],
+            "effect": "Target a unit in range. If you target a hero who is adjacent to 3 or more obstacles, may repeat once on a different unit adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Peak Precision",
+        "initiative": 10,
+        "Bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. If you target a hero to 3 or more obstacles, +2 attack and after the attack: You may retrieve this card."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Split Throw",
+        "initiative": 10,
+        "bonus": "Defense",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range. If you target a hero who is adjacent to 3 or more obstacles, may repeat once on a different target unit."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Thread Lightly",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "Swap either with an unit adjacent to you, or with an enemy hero in radius who is adjacent to 3 or more obstacles."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Cover Tracks",
+        "bonus": "Defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Swap either with an unit adjacent to you, or with an enemy hero in radius who is adjacent to 3 or more obstacles. <br> You may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Mountain Guide",
+        "bonus": "Attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move a friendly unit adjacent to you up to 2 spaces. If an enemy hero in radius is adjacent to 3 or more obstacles, move a different friendly unit in radius up to 2 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Hide Traces",
+        "bonus": "Range",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Swap either with an unit adjacent to you, or with an enemy hero in radius who is adjacent to 3 or more obstacles. <br> You may move 2 up to spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Expedition Leader",
+        "bonus": "Attack",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move a friendly unit adjacent to you up to 3 spaces. If an enemy hero in radius is adjacent to 3 or more obstacles, move a different friendly unit in radius up to 3 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Bear Trap",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>An enemy enemy hero adjacent to you discards a card, if able.</li><li>An enemy hero in radius who is adjacent to 3 or more obstacles discards a card, if able.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Log Trap",
+        "bonus": "Initiative",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>An enemy enemy hero adjacent to you discards a card, if able.</li><li>An enemy hero in radius who is adjacent to 3 or more obstacles discards a card, if able.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "True Grit",
+        "bonus": "Attack",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "You may retrieve a discarded attack card. If an enemy hero in radius is adjacent to 3 or more obstacles, move up to 3 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Deadfall Trap",
+        "bonus": "Initiative",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>An enemy enemy hero adjacent to you discards a card, or is defeated.</li><li>An enemy hero in radius who is adjacent to 3 or more obstacles discards a card, or is defeated.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Die Hard",
+        "bonus": "Movement",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "You may retrieve a discarded attack card. If an enemy hero in radius is adjacent to 3 or more obstacles, move up to 4 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Over the Top",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "While you are performing actions all enemy heroes in play count as adjacent to 3 or more obstacles."
+          }
+        }
+      }
     ]
   },
   {
@@ -696,6 +2227,535 @@
       "Tactician",
       "Damager",
       "Farming"
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Decoy",
+        "initiative": 1,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameters": [
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect":"<b>Choose up to two times,</b> on different targets -- <br><ul><li>Move an enemy minion in radius 1 space.</li><li>Move an enemy hero in radius who is adjacent to 3 or more obstacles 1 space.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Home Turf",
+        "initiative": 11,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one --</b><br><ul><li>Target a hero adjacent to you.</li><li>Target a hero in range who is adjacent to 3 or more obstacles.</li></ul><br><i>You, other heroes, minions, tokens and terrain are obstacles.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Familiar Ground",
+        "initiative": 12,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Choose one --</b><br><ul><li>Target a hero adjacent to you.</li><li>Target a hero in range who is adjacent to 3 or more obstacles.</li></ul><br><i>You, other heroes, minions, tokens and terrain are obstacles.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "High Ground",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. If you target a hero to 3 or more obstacles, +2 attack."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Elevated Ambush",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. If you target a hero to 3 or more obstacles, +2 attack."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Split Attack",
+        "bonus": "Defense",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Attack",
+                "value": 6
+              }
+            ],
+            "effect": "Target a unit in range. If you target a hero who is adjacent to 3 or more obstacles, may repeat once on a different unit adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Peak Precision",
+        "initiative": 10,
+        "Bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. If you target a hero to 3 or more obstacles, +2 attack and after the attack: You may retrieve this card."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Split Throw",
+        "initiative": 10,
+        "bonus": "Defense",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range. If you target a hero who is adjacent to 3 or more obstacles, may repeat once on a different target unit."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Thread Lightly",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "Swap either with an unit adjacent to you, or with an enemy hero in radius who is adjacent to 3 or more obstacles."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Cover Tracks",
+        "bonus": "Defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Swap either with an unit adjacent to you, or with an enemy hero in radius who is adjacent to 3 or more obstacles. <br> You may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Mountain Guide",
+        "bonus": "Attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move a friendly unit adjacent to you up to 2 spaces. If an enemy hero in radius is adjacent to 3 or more obstacles, move a different friendly unit in radius up to 2 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Hide Traces",
+        "bonus": "Range",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Swap either with an unit adjacent to you, or with an enemy hero in radius who is adjacent to 3 or more obstacles. <br> You may move 2 up to spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Expedition Leader",
+        "bonus": "Attack",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move a friendly unit adjacent to you up to 3 spaces. If an enemy hero in radius is adjacent to 3 or more obstacles, move a different friendly unit in radius up to 3 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Bear Trap",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>An enemy enemy hero adjacent to you discards a card, if able.</li><li>An enemy hero in radius who is adjacent to 3 or more obstacles discards a card, if able.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Log Trap",
+        "bonus": "Initiative",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>An enemy enemy hero adjacent to you discards a card, if able.</li><li>An enemy hero in radius who is adjacent to 3 or more obstacles discards a card, if able.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "True Grit",
+        "bonus": "Attack",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "You may retrieve a discarded attack card. If an enemy hero in radius is adjacent to 3 or more obstacles, move up to 3 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Deadfall Trap",
+        "bonus": "Initiative",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>An enemy enemy hero adjacent to you discards a card, or is defeated.</li><li>An enemy hero in radius who is adjacent to 3 or more obstacles discards a card, or is defeated.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Die Hard",
+        "bonus": "Movement",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "You may retrieve a discarded attack card. If an enemy hero in radius is adjacent to 3 or more obstacles, move up to 4 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Over the Top",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "While you are performing actions all enemy heroes in play count as adjacent to 3 or more obstacles."
+          }
+        }
+      }
     ]
   },
   {
@@ -705,7 +2765,7 @@
     "lore": "Dodger hated delving through the dusty tomes. It was always the more practical aspects of dark magic that fascinated her, so when a daemon offered to complete her training by bypassing the boring formalities, it took a mirror for her to realize that there was fine print in that contract.",
     "gameplay": [
       "Your main weakness is your low defense. Keep this in mind when leveling up.",
-      "You are stronger when there are many empty minion spawn points in the battle zone, which can be achieved by defeating minions or displacing them through other means.",
+      "You are stronger when there are many empty minion spawn points in the battlezone, which can be achieved by defeating minions or displacing them through other means.",
       "Play your silver card on turns when you expect enemy heroes to attack  minions."
     ],
     "stats": [
@@ -733,6 +2793,553 @@
       "Pusher",
       "Farming",
       "Disabler"
+    ],
+    "cards":   [
+      {
+        "type":"silver",
+        "name": "Death Trap",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameters": [
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect":"An enemy hero in radius who is adjacent to an empty spawn point in the battlezone discards a card, if able."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Rusty Razor",
+        "initiative": 11,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 1
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one: -</b><ul><li>Target a hero adjacent to you.</li><li>If you are adjacent to an empty spawn point in the battlezone, target a hero in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Dread Razor",
+        "initiative": 12,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one: -</b><ul><li>Target a hero adjacent to you.</li><li>If you are adjacent to an empty spawn point in the battlezone, target a hero in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Littlefinger of Death",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one: -</b><ul><li>Target a hero adjacent to you.</li><li>Target a hero in range who has one or more cards in the discard.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Finger of Death",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Choose one: -</b><ul><li>Target a hero adjacent to you.</li><li>Target a hero in range who has one or more cards in the discard.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Burning Skull",
+        "bonus": "Defense",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range. After the attack: Move up to 1 minion adjacent to you 1 space not adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Middlefinger of Death",
+        "initiative": 10,
+        "Bonus": "Movement",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Choose one or both</b> (on different targets) <b>-</b><ul><li>Target a hero adjacent to you.</li><li>Target a hero in range who has one or more cards in the discard.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Blazing Skull",
+        "initiative": 10,
+        "bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range. After the attack: Move each up to 2 minions adjacent to you 1 space not adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Shield of Decay",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "parameter":[
+              {
+                "type": "Defense",
+                "value": 3,
+                "modifiable": true
+              },
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "+2 Defense if there are 2 or more empty spawn points in radius in the battlezone."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Vampiric Shield",
+        "bonus": "Initiative",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "parameter":[
+              {
+                "type": "Defense",
+                "value": 4,
+                "modifiable": true
+              },
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "+2 Defense if there are 2 or more empty spawn points in radius in the battlezone."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Weakness",
+        "bonus": "Attack",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "<b>This turn:</b> Enemy heroes in radius have -4 Attack. <br><br><i>(They can still attack, even with a negative attack value.)</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Aegis of Doom",
+        "bonus": "Initiative",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "parameter":[
+              {
+                "type": "Defense",
+                "value": 4,
+                "modifiable": true
+              },
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "+4 Defense if there are 2 or more empty spawn points in radius in the battlezone."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Enfeeblement",
+        "bonus": "Attack",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "<b>This turn:</b> Enemy heroes in radius have -6 Attack and cannot repeat actions."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Dark Ritual",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "If there are 2 or more empty spawn points in radius in the battlezone, gain 1 coin."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Darker Ritual",
+        "bonus": "Defense",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "If there are 2 or more empty spawn points in radius in the battlezone, gain 2 coins."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Necromancy",
+        "bonus": "Attack",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "Respawn a friendly minion in an empty spawn point adjacent to you in the battlezone."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Darkest Ritual",
+        "bonus": "Defense",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "If there are 2 or more empty spawn points in radius in the battlezone, gain 2 coins; If you have your Ultimate, gain +1 Attack item. <br><br><i>(Use any spare card from the box with the corresponding icon."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Necromastery ",
+        "bonus": "Range",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 1
+              }
+            ],
+            "effect": "Respawn a friendly minion in an empty spawn point adjacent to you in the battlezone."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Tide of Darness",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "While you are performing an action, all spaces count as if they were in the battlezone and had a friendly minion spawn point."
+          }
+        }
+      }
     ]
   },
   {
@@ -772,6 +3379,540 @@
       "Durable",
       "Disabler",
       "Tokens"
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Unstable Timeline",
+        "initiative": 1,
+        "actions": {
+          "primary": {
+            "type": "Basic Defense/Skill",
+            "parameters": [
+              {
+                "type": "Defense",
+                "value": 4
+              },
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect":"Place 2 Glitch tokens in radius, with at least 2 spaces between each token; if used as a defense, place 3 tokens instead.<br><br>An enemy in play chooses one of the Glitch tokens; you swap with that token.<br><b>End of the turn:</b> Remove all glitch tokens."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Tear in Time",
+        "initiative": 10,
+        "isHandicap": true,
+        "actions":  {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              }
+            ],
+            "effect": "Target a hero adjacent to you. After the attack. <b>Next turn:</b> Heroes with lower initiative act before heroes with higher initiative. This effect ignores immunity."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Reverse Time",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              }
+            ],
+            "effect": "Target a unit adjacent to you. After the attack, <b>Next turn:</b> Heroes with lower initiative act before heroes with higher initiative. This effect ignores immunity. <br><br><i>Resolve the Ties as normal</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Temporal Punch",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 9
+              }
+            ],
+            "effect": "Target a unit adjacent to you; when defending, the enemy hero must use the initiative value of their card and items instead of the Defense value of their card and items. <br><br><i>Minion defense modifiers are applied as normal.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Temporal Slam",
+        "bonus": "Initiative",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 11
+              }
+            ],
+            "effect": "Target a unit adjacent to you; when defending, the enemy hero must use the initiative value of their card and items instead of the Defense value of their card and items. <br><br><i>Minion defense modifiers are applied as normal.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Flashback",
+        "bonus": "Defense",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5
+              },
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Target a unit adjacent to you; After the attack: You may place 3 Glitch tokens in radius; with at least two spaces between each token; if you do, up to 1 enemy hero in radius swaps with a Glitch token of their choice. <br><b>End of turn:</b> Remove all Glitch tokens."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Temporal Judgement",
+        "initiative": 10,
+        "Bonus": "Range",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 12
+              }
+            ],
+            "effect": "Target a unit adjacent to you; when defending, the enemy hero must use the initiative value of their card and items instead of the Defense value of their card and items. <br><br><i>Minion defense modifiers are applied as normal.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 8
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Split Throw",
+        "initiative": 8,
+        "bonus": "Defense",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 6
+              },
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Target a unit adjacent to you; After the attack: You may place 3 Glitch tokens in radius; with at least two spaces between each token; if you do, up to 1 enemy hero in radius swaps with a Glitch token of their choice. <br><b>End of turn:</b> Remove all Glitch tokens."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Time Snare",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "An enemy hero in range, who has already resolved a card this turn, discards a card, if able."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Time Trap",
+        "bonus": "Defense",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "An enemy hero in range, who has already resolved a card this turn, discards a card, if able."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Time Loop",
+        "bonus": "Attack",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Swap with an enemy hero in range who has already resolved a card this turn."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Time Bomb",
+        "bonus": "Movement",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "An enemy hero in range, who has already resolved a card this turn, discards a card, or is defeated."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Time Warp",
+        "bonus": "Radius",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>Swap with an enemy hero in range who has already resolved a card this turn.</li><li>An enemy in range swaps their unresolved card with their resolved card of their choice.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Time walk",
+        "initiative": 6,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Move an enemy hero in range, who remained in the same space since last the turn, 2 spaces in a straight line."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Fast forward",
+        "bonus": "Attack",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Move an enemy hero in range, who remained in the same space since the last turn, 2 spaces in a straight line."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Time Capsule",
+        "bonus": "Initiative",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "You, and friendly heroes in radius, may retrieve all cards discarded this turn."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Back to the future",
+        "bonus": "Attack",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>Place a unit in range into the space where that unit was at the start of this turn.</li><li>Move an enemy hero in range, who remained in the same space since the last turn, 2 spaces in a straight line.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Die Hard",
+        "bonus": "Movement",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>You, and friendly heroes in radius, may retrieve all cards discarded this turn.</li><li><b>This turn:</b> Friendly heroes in radius, are immune to enemy actions.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Over the Top",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "You may play two cards each turn. If you do, after the cards are revealed, retrieve one of your unresolved cards."
+          }
+        }
+      }
     ]
   },
   {
@@ -1211,6 +4352,551 @@
     "roles": [
       "Tactician",
       "Pusher"
+    ],
+    "cards":  [
+      {
+        "type":"silver",
+        "name": "Back to Back",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameters": [
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect":"Swap with a friendly minion in radius."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Bang",
+        "initiative": 11,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 1
+              }
+            ],
+            "effect": "Target a hero adjacent to you. After the attack: Push the target 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Point Blank Shot",
+        "initiative": 12,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              },
+              {
+                "type": "Range",
+                "value": 1
+              }
+            ],
+            "effect": "Target a hero adjacent to you. After the attack: Push the target 1 space. <br><br><i>(A unit pushed into an obstacle will stop. This is a valid push.)</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Quick draw",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2,
+                "Modifiable": true
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range. +3 Attack if the target played an attack card this turn."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Gunslinger",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3,
+                "Modifiable": true
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range. +3 Attack if the target played an attack card this turn."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Shootout",
+        "bonus": "Defense",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "Target a unit in range. After the attack: If the target was adjacent to you remove up to 1 enemy minion adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Dead Shot",
+        "initiative": 9,
+        "Bonus": "Movement",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3,
+                "Modifiable": true
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Target a unit in range. +4 Attack if the target played an attack card this turn."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Bullet Hell",
+        "initiative": 9,
+        "bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Target a unit in range. After the attack: If the target was adjacent to you remove up to 2 enemy minions adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Listen Up",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 1
+              }
+            ],
+            "effect": "Swap 2 minions in radius."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Roger Roger",
+        "bonus": "Attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "Swap 2 minions in radius."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Steady Advance",
+        "bonus": "Defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "If there are 2 or more friendly minion in radius you may retrieve a discarded card, then move up to 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Ready and Waiting",
+        "bonus": "Attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "Swap 2 minions in radius, ignoring heavy minion immunity."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Unwavering Resolve",
+        "bonus": "Defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "If there are 2 or more friendly minion in radius you may retrieve a discarded card, then move up to 2 spaces."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Troop Movement",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "Move a friendly minion in radius 1 space, to a space in radius. May repeat once."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Marching Orders",
+        "bonus": "Attack",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Move a friendly minion in radius 1 space, to a space in radius. May repeat once."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Close Support",
+        "bonus": "Initiative",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "An enemy hero in radius adjacent to your friendly minion discards a card, if able."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Path to Victory",
+        "bonus": "Range",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "Move a friendly minion in radius 1 space, to a space in radius. May repeat up to 2 times."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Covering Fire",
+        "bonus": "Initiative",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "An enemy hero in radius adjacent to your friendly minion discards a card or is defeated."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Big Sodding Gun",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "Your basic attack has +2 Range and +2 Attack. If you push an enemy hero, that hero discards a card, or is defeated."
+          }
+        }
+      }
     ]
   },
   {
@@ -1674,7 +5360,485 @@
       "Melee",
       "Disabler",
       "Farming"
+    ],
+    "cards":  [
+      {
+        "type":"silver",
+        "name": "Blend Into Shadows",
+        "initiative": 65,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameters": [
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect":"If you are adjacent to terrain, place yourself into a space in radius; if you do, <b>Next turn:</b> You are immune to enemy attack actions."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Rusty Razor",
+        "initiative": 12,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              }
+            ],
+            "effect": "Before the attack: Move 2 spaces in a straight line through an enemy hero; target that hero."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Blink Strike",
+        "initiative": 13,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              }
+            ],
+            "effect": "Before the attack: Move 2 spaces in a straight line through an enemy unit; target that unit. <br><br><i>(If you cannot make that move, you cannot attack.)</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Hit and Run",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              }
+            ],
+            "effect": "Target a unit adjacent to you. After the attack: You may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Combat Reflexes",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              }
+            ],
+            "effect": "Before the attack: You may move 1 space. Target a unit adjacent to you. After the attack: If you did not move before the attack, you may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Backstab",
+        "bonus": "Defense",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you; If a friendly unit is adjacent to the target, +2 Attack. <br><br><i>(A \"firendly\" unit is another hero or a minion on your team.</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Leaping Strike",
+        "initiative": 10,
+        "Bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              }
+            ],
+            "effect": "Before the attack: You may move 1 space. Target a unit adjacent to you. After the attack: You may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Backstab With a Ballista",
+        "initiative": 10,
+        "bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              },
+              {
+                "type": "Range",
+                "value": 1
+              }
+            ],
+            "effect": "Target a unit in range; If a friendly unit is adjacent to the target, +2 Attack and the target cannot perform a primary action to defend."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Dodge",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "effect": "Block a Ranged attack."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Sidestep",
+        "bonus": "Attack",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "effect": "Block a Ranged attack. You may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Parry",
+        "bonus": "Defense",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "effect": "Block a non-ranged attack. The attacker discards a card, if able."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Evade",
+        "bonus": "Attack",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "parameter":[
+              {
+                "type": "Defense",
+                "value": 4,
+                "modifiable": true
+              },
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "Block a Ranged attack. You may move 1 space. You may retrieve your resolved or discarded basic skill card."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Riposte",
+        "bonus": "Range",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Defense",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "Block a non-ranged attack. The attacker discards a card or is defeated."
+          },
+          "secondary": [
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Light-Fingered",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "You may move 1 space. Take 1 coin from any enemy adjacent to you; if you do, you may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Pick Pocket",
+        "bonus": "Attack",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "Move up to 2 spaces. Take 1 coin from an enemy hero adjacent to you; if you do, you may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Poisoned Dagger",
+        "bonus": "Initiative",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Give a hero in range a Poison marker. The hero with a poison marker has -1 Initiative, -1 Attack, and -1 Defense."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Master Thief",
+        "bonus": "Movement",
+        "initiative": 1,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "Move up to 2 spaces. Take 1 or 2 coins from an enemy hero adjacent to you; if you do, you may move 1 space."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Poisoned Dart",
+        "bonus": "Initiative",
+        "initiative": 1,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Give a hero in range a Poison marker. The hero with a poison marker has -2 Initiative, -2 Attack, and -2 Defense."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Cloak and Dagger",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "After you perform a basic action you may repeat it once; if you repeat an attack action, you cannot target the same unit."
+          }
+        }
+      }
     ]
+
   },
   {
     "name": "Trinkets",
@@ -1784,7 +5948,537 @@
       "Disabler",
       "Tactician",
       "Sniper"
-    ]
+    ],
+    "cards":  [
+    {
+      "type":"silver",
+      "name": "Static Barrier",
+      "initiative": 13,
+      "actions": {
+        "primary": {
+          "type": "Basic Skill",
+          "parameters": [
+            {
+              "type": "Radius",
+              "value": 2
+            }
+          ],
+          "effect":"<b>This turn:</b> While an enemy hero outside of radius is performing an action, spaces in radius count as obstacles. While an enemy hero in radius is performing an action, spaces outside of radius count as obstacles."
+        },
+        "secondary": [
+          {
+            "type" : "Defense",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "type":"gold",
+      "name": "Crackling Dagger",
+      "initiative": 11,
+      "isHandicap": true,
+      "actions": {
+        "primary": {
+          "type": "Basic Attack",
+          "parameter":[
+            {
+              "type": "Attack",
+              "value": 2
+            },
+            {
+              "type": "Radius",
+              "value": 3
+            }
+          ],
+          "effect": "Target a hero adjacent to you. After the attack: <b>This turn:<b> Enemy units in radius cannot be swapped or placed by themselves, or by themselves, or by enemy heroes."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 1
+          },
+          {
+            "type": "Movement",
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "type":"gold",
+      "name": "Magnetic Dagger",
+      "initiative": 12,
+      "actions": {
+        "primary": {
+          "type": "Basic Attack",
+          "parameter":[
+            {
+              "type": "Attack",
+              "value": 3
+            },
+            {
+              "type": "Radius",
+              "value": 3
+            }
+          ],
+          "effect": "Target a unit adjacent to you. After the attack: <b>This turn:<b> Enemy units in radius cannot be swapped or placed by themselves, or by themselves, or by enemy heroes."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 2
+          },
+          {
+            "type": "Movement",
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "type":"red",
+      "level": 1,
+      "name": "Shock",
+      "initiative": 8,
+      "actions": {
+        "primary": {
+          "type": "Attack",
+          "parameter":[
+            {
+              "type": "Attack",
+              "value": 5
+            },
+            {
+              "type": "Radius",
+              "value": 2
+            }
+          ],
+          "effect": "Target a unit adjacent to you. After the attack: An enemy hero in radius an not adjacent to you discards a card if able."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 6
+          },
+          {
+            "type": "Movement",
+            "value": 4
+          }
+        ]
+      }
+    },
+    {
+      "type":"red",
+      "level": 2,
+      "name": "Electrocute",
+      "bonus": "Initiative",
+      "initiative": 9,
+      "actions": {
+        "primary": {
+          "type": "Attack",
+          "parameter":[
+            {
+              "type": "Attack",
+              "value": 5
+            },
+            {
+              "type": "Radius",
+              "value": 3
+            }
+          ],
+          "effect": "Target a unit adjacent to you. After the attack: An enemy hero in radius an not adjacent to you discards a card if able."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 6
+          },
+          {
+            "type": "Movement",
+            "value": 4
+          }
+        ]
+      }
+    },
+    {
+      "type":"red",
+      "level": 2,
+      "name": "Charged Boomerang",
+      "bonus": "Defense",
+      "initiative": 9,
+      "actions": {
+        "primary": {
+          "type": "Attack - Ranged",
+          "parameter":[
+            {
+              "type": "Attack",
+              "value": 3
+            },
+            {
+              "type": "Range",
+              "value": 3
+            }
+          ],
+          "effect": "Target a unit in range and not in a straight line. <br><br> <i>(Adjacent units are in a straight line as well.)</i>"
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 3
+          },
+          {
+            "type": "Movement",
+            "value": 4
+          }
+        ]
+      }
+    },
+    {
+      "type":"red",
+      "level": 3,
+      "name": "Electroblast",
+      "initiative": 8,
+      "Bonus": "Initiative",
+      "actions": {
+        "primary": {
+          "type": "Attack",
+          "parameter":[
+            {
+              "type": "Attack",
+              "value": 6
+            },
+            {
+              "type": "Radius",
+              "value": 3
+            }
+          ],
+          "effect": "Target a unit adjacent to you. After the attack: An enemy hero in radius an not adjacent to you discards a card, or is defeated."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 7
+          },
+          {
+            "type": "Movement",
+            "value": 4
+          }
+        ]
+      }
+    },
+    {
+      "type":"red",
+      "level": 3,
+      "name": "Thunder Boomerang",
+      "initiative": 9,
+      "bonus": "Movement",
+      "actions": {
+        "primary": {
+          "type": "Attack - Ranged",
+          "parameter":[
+            {
+              "type": "Attack",
+              "value": 4
+            },
+            {
+              "type": "Range",
+              "value": 3
+            }
+          ],
+          "effect": "Target a unit in range and not in a straight line. After the attack: If you targeted a hero may repeat once on a different target."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 4
+          },
+          {
+            "type": "Movement",
+            "value": 4
+          }
+        ]
+      }
+    },
+    {
+      "type":"blue",
+      "level": 1,
+      "name": "Lift Up",
+      "initiative": 10,
+      "actions": {
+        "primary": {
+          "type": "Skill",
+          "parameter":[
+            {
+              "type": "Radius",
+              "value": 2
+            }
+          ],
+          "effect": "Move a unit, or a token, in radius 1 space, without moiving it away from you or closer to you. May repeat once on the same target."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 5
+          },
+          {
+            "type": "Movement",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "type":"blue",
+      "level": 2,
+      "name": "Control Gravity",
+      "bonus": "Defense",
+      "initiative": 10,
+      "actions": {
+        "primary": {
+          "type": "Skill",
+          "parameter":[
+            {
+              "type": "Radius",
+              "value": 3
+            }
+          ],
+          "effect": "Move a unit, or a token, in radius 1 space, without moiving it away from you or closer to you. May repeat once on the same target."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 5
+          },
+          {
+            "type": "Movement",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "type":"blue",
+      "level": 2,
+      "name": "Kinetic Repulse",
+      "bonus": "Attack",
+      "initiative": 10,
+      "actions": {
+        "primary": {
+          "type": "Skill",
+          "effect": "Push up to 2 enemy units adjacent to you 3 spaces; if a pushed hero is stopped by an obstacle, that hero discards a card, if able."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 5
+          },
+          {
+            "type": "Movement",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "type":"blue",
+      "level": 3,
+      "name": "Center of Mass",
+      "bonus": "Defense",
+      "initiative": 11,
+      "actions": {
+        "primary": {
+          "type": "Skill",
+          "parameter":[
+            {
+              "type": "Radius",
+              "value": 3
+            }
+          ],
+          "effect": "Move a unit, or a token, in radius 1 space, without moiving it away from you or closer to you. May repeat up to 2 times on the same target."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 6
+          },
+          {
+            "type": "Movement",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "type":"blue",
+      "level": 3,
+      "name": "Kinetic Blast",
+      "bonus": "Range",
+      "initiative": 11,
+      "actions": {
+        "primary": {
+          "type": "Skill",
+          "effect": "Push up to 2 enemy units adjacent to you 3 or 4 spaces; if a pushed hero is stopped by an obstacle, that hero discards a card, if able."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 6
+          },
+          {
+            "type": "Movement",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "type":"green",
+      "level": 1,
+      "name": "Stop Projectiles",
+      "initiative": 3,
+      "actions": {
+        "primary": {
+          "type": "Defense - Ranged",
+          "effect": "Block a ranged attack."
+        },
+        "secondary": [
+          {
+            "type": "Movement",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "type":"green",
+      "level": 2,
+      "name": "Deflect Projectiles",
+      "bonus": "Initiative",
+      "initiative": 3,
+      "actions": {
+        "primary": {
+          "type": "Block - Ranged",
+          "parameter":[
+            {
+              "type": "Range",
+              "value": 3
+            }
+          ],
+          "effect": "Block a ranged attack; if you do, an enemy hero in range, other than the attack, discards a card, if able."
+        },
+        "secondary": [
+          {
+            "type": "Movement",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "type":"green",
+      "level": 2,
+      "name": "Telekinesis",
+      "bonus": "Attack",
+      "initiative": 3,
+      "actions": {
+        "primary": {
+          "type": "Skill - Ranged",
+          "parameter":[
+            {
+              "type": "Range",
+              "value": 3
+            }
+          ],
+          "effect": "Place a unit or token in range, which is not in a straight line, into a space adjacent to you."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 3
+          },
+          {
+            "type": "Movement",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "type":"green",
+      "level": 3,
+      "name": "Reflect Projecticles",
+      "bonus": "Radius",
+      "initiative": 2,
+      "actions": {
+        "primary": {
+          "type": "Movement",
+          "parameter":[
+            {
+              "type": "Movement",
+              "value": 2
+            },
+            {
+              "type": "Radius",
+              "value": 2
+            }
+          ],
+          "effect": "Block a ranged attack; if you do, an enemy hero in range discards a card, if able."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 4
+          }
+        ]
+      }
+    },
+    {
+      "type":"green",
+      "level": 3,
+      "name": "Final Embrace",
+      "bonus": "Initiative",
+      "initiative": 4,
+      "actions": {
+        "primary": {
+          "type": "Skill - Ranged",
+          "parameter":[
+            {
+              "type": "Range",
+              "value": 3
+            }
+          ],
+          "effect": "Place a unit or token in range, which is not in a straight line, into a space adjacent to you. May repeat once."
+        },
+        "secondary": [
+          {
+            "type": "Defense",
+            "value": 4
+          },
+          {
+            "type": "Movement",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "type":"purple",
+      "name": "Metamorphosis",
+      "actions": {
+        "primary": {
+          "type": "Ultimate",
+          "parameter":[
+            {
+              "type": "Range",
+              "value": 3
+            }
+          ],
+          "effect": "Each time after you perform a basic skill, you may defeat an enemy minion in radius, an enemy hero who was adjacent to that minion discards a card, if able."
+        }
+      }
+    }
+  ]
   },
   {
   "name": "Whisper",
@@ -1894,6 +6588,534 @@
       "Sniper",
       "Tactician",
       "Healer"
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Mystical Saplings",
+        "initiative": 1,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill",
+            "parameters": [
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect":"Place up to 3 Tree tokens in radius; Tree tokens are not removed at the end of the round."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Makeshift weapon",
+        "initiative": 10,
+        "isHandicap": true,
+        "actions":  {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>Target a hero adjacent to you.</li><li>Remove a Tree token adjacent to you. Target a hero in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Tree Slam",
+        "initiative": 11,
+        "actions":  {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>Target a minion adjacent to you.</li><li>Remove a Tree token adjacent to you. Target a hero in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Nature's protector",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>Target a hero adjacent to you.</li><li>Remove a Tree token adjacent to you. Target a hero in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Nature's Guardian",
+        "bonus": "Initiative",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>Target a hero adjacent to you.</li><li>Remove a Tree token adjacent to you. Target a hero in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 8
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Trample",
+        "bonus": "Defense",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 4
+              }
+            ],
+            "effect": "If you move in a straight line: You may ignore obstacles; each enemy hero you moved through discards a card, or is defeated; defeat up to one minion you moved through."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Nature's Champion",
+        "initiative": 8,
+        "Bonus": "Initiative",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 6
+              },
+              {
+                "type": "Range",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one, or both,</b> on different targets --<br> <ul><li>Target a hero adjacent to you.</li><li>Remove a Tree token adjacent to you. Target a hero in range.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 8
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Angry Stampede",
+        "initiative": 8,
+        "bonus": "Defense",
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 4
+              }
+            ],
+            "effect": "If you move in a straight line: You may ignore obstacles; each enemy hero you moved through discards a card, or is defeated; defeat up to 2 minions you moved through."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Gifts of Nature",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "Remove a Tree token in radius. You may retrieve a discarded card."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Tree of Plenty",
+        "bonus": "Attack",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Remove a Tree token in radius.<br><b>Choose one -</b><br><ul><li>You may retrieve a discarded card.</li><li>A friendly hero in radius may retrieve a discarded card.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Claim Dominance",
+        "bonus": "Initiative",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "<b>This round:</b> Up to 1 enemy minion adjacent to you does not count towards the minion total during minion battle, regardless, of immunity."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Abundance",
+        "bonus": "Range",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "Remove a Tree token in radius.<br><b>Choose one or both -</b><br><ul><li>You may retrieve a discarded card.</li><li>A friendly hero in radius may retrieve a discarded card.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Assert Dominance",
+        "bonus": "Radius",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "<b>This round:</b> Up to 2 enemy minions adjacent to you does not count towards the minion total during minion battle, regardless, of immunity."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Toss away",
+        "initiative": 6,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Place a token, or an enemy unit, adjacent to you into a space in range."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Mighty Throw",
+        "bonus": "Attack",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Move an enemy hero in range, who remained in the same space since the last turn, 2 spaces in a straight line."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Into the Canopy",
+        "bonus": "Defense",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose one: -</b><br> <ul><li>Swap with a Tree token in radius</li><li>Swap with a friendly unit in radius with a tree token in Radius.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Monstrous Throw",
+        "bonus": "Attack",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill - Ranged",
+            "parameter":[
+              {
+                "type": "Range",
+                "value": 4
+              }
+            ],
+            "effect": "Place a token, or an enemy unit, adjacent to you into a space in range. May repeat once."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Treetop Ride",
+        "bonus": "Defense",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Choose up to 2 times: -</b><br> <ul><li>Swap with a Tree token in radius</li><li>Swap with a friendly unit in radius with a tree token in Radius.</li></ul>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "March of Nature",
+        "actions": {
+          "primary": {
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "type": "Ultimate",
+            "effect": "Each time after you resolve a card, you may place a Tree token in radius."
+          }
+        }
+      }
     ]
   },
   {
@@ -1931,6 +7153,523 @@
       "Disabler",
       "Durable",
       "Sniper"
-    ]}
+    ],
+    "cards": [
+      {
+        "type":"silver",
+        "name": "Siren's Call",
+        "initiative": 3,
+        "actions": {
+          "primary": {
+            "type": "Basic Skill - Ranged",
+            "parameters": [
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect":"Target an enemy unit not adjacent to you and in range; if able, move the target up to 3 spaces to a space adjacent to you."
+          },
+          "secondary": [
+            {
+              "type" : "Defense",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Desperate Cleave",
+        "initiative": 10,
+        "isHandicap": true,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              }
+            ],
+            "effect": "Target a hero adjacent to you. After the attack: May repeat once on a different enemy hero."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 1
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"gold",
+        "name": "Cleave",
+        "initiative": 12,
+        "actions": {
+          "primary": {
+            "type": "Basic Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 2
+              },
+              {
+                "type": "Range",
+                "value": 3
+              }
+            ],
+            "effect": "Target a unit adjacent to you. After the attack: May repeat once on a different enemy hero. <br><br> (You may repeat even if the original target was a minion.)"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 2
+            },
+            {
+              "type": "Movement",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 1,
+        "name": "Dangerous Slash",
+        "initiative": 7,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. +1 Attack for each other enemy unit adjacent to you. <br><br> (Do not count the target when calculating the attack bonus.)"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Deadly Swipe",
+        "bonus": "Initiative",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. +2 Attack for each other enemy unit adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 2,
+        "name": "Long thrust",
+        "bonus": "Defense",
+        "initiative": 8,
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 3
+              },
+              {
+                "type": "Range",
+                "value": 1,
+                "Modifiable": true
+              }
+            ],
+            "effect": "Target a unit in range. +1 Range for each enemy unit adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Lethal Spin",
+        "initiative": 8,
+        "Bonus": "Radius",
+        "actions": {
+          "primary": {
+            "type": "Attack",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 5,
+                "modifiable": true
+              }
+            ],
+            "effect": "Target a unit adjacent to you. +3 Attack for each other enemy unit adjacent to you."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 7
+            },
+            {
+              "type": "Movement",
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "type":"red",
+        "level": 3,
+        "name": "Rapid Thrusts",
+        "initiative": 8,
+        "bonus": "Movement",
+        "actions": {
+          "primary": {
+            "type": "Attack - Ranged",
+            "parameter":[
+              {
+                "type": "Attack",
+                "value": 4
+              },
+              {
+                "type": "Range",
+                "value": 1,
+                "Modifiable": true
+              }
+            ],
+            "effect": "Target a unit in range. +1 Range for each enemy unit adjacent to you. May repeat on a different enemy hero."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 1,
+        "name": "Stone Gaze",
+        "initiative": 9,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "<b>Next turn:</b> Enemy heroes count as both heroes and terrain, and cannot perform movement actions. <br><br><i>(If you move, the radius \"moves\" with you.)</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Petrifying Stare",
+        "bonus": "Defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 3
+              }
+            ],
+            "effect": "<b>Next turn:</b> Enemy heroes count as both heroes and terrain, and cannot perform movement actions."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 5
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 2,
+        "name": "Fresh Converts",
+        "bonus": "Attack",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "If you are adjacent to an enemy minion, you may retrieve a discarded card."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Turn into Statues",
+        "bonus": "Defense",
+        "initiative": 10,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "parameter":[
+              {
+                "type": "Radius",
+                "value": 4
+              }
+            ],
+            "effect": "<b>Next turn:</b> Enemy heroes count as both heroes and terrain, and cannot perform movement actions."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"blue",
+        "level": 3,
+        "name": "Devoted Followers",
+        "bonus": "Range",
+        "initiative": 11,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "If you are adjacent to an enemy unit, you may retrieve a discarded card."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 6
+            },
+            {
+              "type": "Movement",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 1,
+        "name": "Charm",
+        "initiative": 5,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 2
+              },
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "You may move an enemy ranged minion in radius up to 2 spaces before or after movement."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Control",
+        "bonus": "Attack",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 2
+              },
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "You may move an enemy ranged or melee minion in radius up to 2 spaces before or after movement."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 2,
+        "name": "Constrict",
+        "bonus": "Initiative",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "<b>End of round:</b> Defeat an enemy melee minion adjacent to you.<br><br><i>(Before the end of round minion battle.)</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 3
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Dominate",
+        "bonus": "Attack",
+        "initiative": 2,
+        "actions": {
+          "primary": {
+            "type": "Movement",
+            "parameter":[
+              {
+                "type": "Movement",
+                "value": 2
+              },
+              {
+                "type": "Radius",
+                "value": 2
+              }
+            ],
+            "effect": "You may move an enemy ranged or melee minion in radius up to 2 spaces before or after movement; ignore heavy minion's immunity."
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "type":"green",
+        "level": 3,
+        "name": "Final Embrace",
+        "bonus": "Initiative",
+        "initiative": 4,
+        "actions": {
+          "primary": {
+            "type": "Skill",
+            "effect": "<b>End of round:</b> Defeat an enemy melee minion adjacent to you.<br><br><i>(Before the end of round minion battle.)</i>"
+          },
+          "secondary": [
+            {
+              "type": "Defense",
+              "value": 4
+            },
+            {
+              "type": "Movement",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "type":"purple",
+        "name": "Metamorphosis",
+        "actions": {
+          "primary": {
+            "type": "Ultimate",
+            "effect": "Gain +1 Movement and +1 Initiative for each enemy unit adjacent to you. You may move through obstacles."
+          }
+        }
+      }
+    ]
+  }
+
 ]
 

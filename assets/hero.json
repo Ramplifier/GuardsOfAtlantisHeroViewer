@@ -13055,7 +13055,7 @@
                   "value": ""
                 }
               ],
-              "effect": "<b>Choose one:</b><br>- Place the turret into a space adjacent to you, it counts as an obstacle.<br>- Remove the Turret; move up to 3 spaces.<br> Remove the Turret; you may retrieve a discarded card."
+              "effect": "<b>Choose one:</b><br>- Place the Turret into a space adjacent to you, it counts as an obstacle.<br>- Remove the Turret; move up to 3 spaces.<br> Remove the Turret; you may retrieve a discarded card."
             },
             "secondary": [
               {

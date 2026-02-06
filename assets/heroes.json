@@ -12499,7 +12499,7 @@
       },
       {
         "type":"blue",
-        "level": 2,
+        "level": 1,
         "name": "Proven Warrior",
         "initiative": 9,
         "actions": {
